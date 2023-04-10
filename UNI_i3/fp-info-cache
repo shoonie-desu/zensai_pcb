@@ -1,4 +1,4 @@
-21612905438638090
+21614586537129959
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -90243,6 +90243,13 @@ SOD-123
 0
 2
 2
+shoonies_parts
+PinHeader_1x19_P1.00mm_Vertical_SMD_Pin1Left_BLANK
+surface-mounted straight pin header, 1x19, 1.00mm pitch, single row, style 1 (pin 1 left)
+Surface mounted pin header SMD 1x19 1.00mm single row style1 pin1 left
+0
+0
+0
 shoonies_parts
 bottom_row_guide
 

@@ -1,0 +1,9 @@
+[submodule "marbastlib"]
+	path = marbastlib
+	url = https://github.com/ebastler/marbastlib.git
+[submodule "Bonsai-C"]
+	path = Bonsai-C
+	url = https://github.com/customMK/Bonsai-C.git
+[submodule "shoesshenanigans"]
+	path = shoesshenanigans
+	url = https://github.com/shoonie-desu/shoesshenanigans.git

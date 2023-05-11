@@ -409,7 +409,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "zensai65_UNI_i2.kicad_pro",
+    "filename": "UNI_i1.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -445,7 +445,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "../../../../../Downloads/zensai65_UNI_i2.step",
+      "step": "../../../../../../Downloads/zensai65_UNI_i2.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

@@ -1,6 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "marbastlib-mx")(type "KiCad")(uri "C:/Users/shoonie/Documents/GitHub/keyboards/zensai_pcb/marbastlib/symbols/marbastlib-mx.kicad_sym")(options "")(descr ""))
-  (lib (name "marbastlib-various")(type "KiCad")(uri "C:/Users/shoonie/Documents/GitHub/keyboards/zensai_pcb/marbastlib/symbols/marbastlib-various.kicad_sym")(options "")(descr ""))
-  (lib (name "Bonsai_C4")(type "Legacy")(uri "C:/Users/shoonie/Documents/GitHub/keyboards/zensai_pcb/Bonsai-C/C4 extended/Bonsai_C4.lib")(options "")(descr ""))
-)

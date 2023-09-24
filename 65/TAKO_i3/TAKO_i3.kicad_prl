@@ -74,7 +74,7 @@
     "files": [
       {
         "name": "TAKO_i3.kicad_pcb",
-        "open": true,
+        "open": false,
         "window": {
           "display": 0,
           "maximized": true,

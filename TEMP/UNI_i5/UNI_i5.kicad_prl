@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 38,
+    "active_layer": 31,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -15,17 +15,17 @@
       "zones": 0.6
     },
     "selection_filter": {
-      "dimensions": false,
+      "dimensions": true,
       "footprints": true,
-      "graphics": false,
-      "keepouts": false,
-      "lockedItems": false,
-      "otherItems": false,
-      "pads": false,
-      "text": false,
+      "graphics": true,
+      "keepouts": true,
+      "lockedItems": true,
+      "otherItems": true,
+      "pads": true,
+      "text": true,
       "tracks": true,
       "vias": true,
-      "zones": false
+      "zones": true
     },
     "visible_items": [
       0,
@@ -73,13 +73,25 @@
   "project": {
     "files": [
       {
+        "name": "UNI_i5.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": -8,
+          "pos_y": -8,
+          "size_x": 1936,
+          "size_y": 1056
+        }
+      },
+      {
         "name": "UNI_i5.kicad_sch",
         "open": true,
         "window": {
           "display": 0,
-          "maximized": false,
-          "pos_x": -84,
-          "pos_y": 154,
+          "maximized": true,
+          "pos_x": -8,
+          "pos_y": -8,
           "size_x": 1936,
           "size_y": 1056
         }

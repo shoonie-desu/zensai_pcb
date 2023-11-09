@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 37,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -63,7 +63,7 @@
       39,
       40
     ],
-    "visible_layers": "0001000_ffffffff",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
@@ -73,8 +73,20 @@
   "project": {
     "files": [
       {
-        "name": "UNI_i5.kicad_sch",
+        "name": "UNI_i5.kicad_pcb",
         "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": -8,
+          "pos_y": -8,
+          "size_x": 1936,
+          "size_y": 1056
+        }
+      },
+      {
+        "name": "UNI_i5.kicad_sch",
+        "open": true,
         "window": {
           "display": 0,
           "maximized": true,

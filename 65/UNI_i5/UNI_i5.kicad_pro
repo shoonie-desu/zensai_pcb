@@ -448,7 +448,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "../../../../../../Downloads/UNI_i5.step",
+      "step": "../../../../../../Downloads/UNI_i5v4.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -476,7 +476,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "KiCad",
     "page_layout_descr_file": "",
     "plot_directory": "C:/Users/shoonie/Downloads/",
     "spice_current_sheet_as_root": false,

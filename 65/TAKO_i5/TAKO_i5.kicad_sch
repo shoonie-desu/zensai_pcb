@@ -4775,7 +4775,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 265.43 179.07 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2dfac30f-5381-4a2b-847d-f33b3626f7ed)
     (property "Reference" "H5" (at 267.97 178.4263 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4799,7 +4799,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 265.43 184.15 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2ed48d96-750d-4e55-bed2-532da376e09f)
     (property "Reference" "H6" (at 267.97 183.5063 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -10015,7 +10015,7 @@
   )
 
   (symbol (lib_id "Switch:SW_Push") (at 162.56 229.87 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e8fd62f9-8e70-4f77-8986-6db2ad966f20)
     (property "Reference" "SW77" (at 162.56 223.9391 0)
       (effects (font (size 1.27 1.27)))
@@ -10102,7 +10102,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x05") (at 118.11 158.75 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid ebb423e0-7413-471b-9ed0-d8b461719287)
     (property "Reference" "J3" (at 120.142 159.3937 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -10573,7 +10573,7 @@
   )
 
   (symbol (lib_id "Switch:SW_Push") (at 162.56 212.09 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fb08e558-4d6f-40bc-9698-0ace6a9cd2ff)
     (property "Reference" "SW76" (at 162.56 206.1591 0)
       (effects (font (size 1.27 1.27)))

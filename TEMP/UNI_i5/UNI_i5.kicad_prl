@@ -66,6 +66,12 @@
     "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
+  },
   "meta": {
     "filename": "UNI_i5.kicad_prl",
     "version": 3
@@ -73,27 +79,15 @@
   "project": {
     "files": [
       {
-        "name": "UNI_i5.kicad_pcb",
+        "name": "UNI_i5.kicad_sch",
         "open": false,
         "window": {
           "display": 0,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 1936,
-          "size_y": 1056
-        }
-      },
-      {
-        "name": "UNI_i5.kicad_sch",
-        "open": true,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 1936,
-          "size_y": 1056
+          "maximized": false,
+          "pos_x": 2518,
+          "pos_y": 0,
+          "size_x": 929,
+          "size_y": 1407
         }
       }
     ]

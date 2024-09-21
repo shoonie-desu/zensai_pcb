@@ -1,7 +1,7 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "",
+    "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -38,6 +38,7 @@
       9,
       10,
       11,
+      12,
       13,
       15,
       16,
@@ -63,8 +64,14 @@
       39,
       40
     ],
-    "visible_layers": "0001040_ffffffff",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
+  },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
   },
   "meta": {
     "filename": "UNI_i5.kicad_prl",
@@ -73,18 +80,6 @@
   "project": {
     "files": [
       {
-        "name": "UNI_i5.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 1936,
-          "size_y": 1056
-        }
-      },
-      {
         "name": "UNI_i5.kicad_sch",
         "open": false,
         "window": {
@@ -92,8 +87,20 @@
           "maximized": false,
           "pos_x": -7,
           "pos_y": 0,
-          "size_x": 974,
-          "size_y": 1047
+          "size_x": 1734,
+          "size_y": 1407
+        }
+      },
+      {
+        "name": "UNI_i5.kicad_pcb",
+        "open": true,
+        "window": {
+          "display": 0,
+          "maximized": false,
+          "pos_x": 1713,
+          "pos_y": 0,
+          "size_x": 1734,
+          "size_y": 1407
         }
       }
     ]

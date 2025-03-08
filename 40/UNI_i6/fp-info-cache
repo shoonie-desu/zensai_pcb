@@ -1,4 +1,4 @@
-24290575314139242
+24318205538992434
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98853,3 +98853,115 @@ Varistor VF
 0
 2
 2
+shoonies_parts
+Bonsai_C4_extended_HYBRID
+
+
+0
+72
+36
+shoonies_parts
+Bonsai_C4_extended_SMD
+
+
+0
+36
+36
+shoonies_parts
+Bonsai_C4_extended_SMD_1
+
+
+0
+36
+36
+shoonies_parts
+Bonsai_C4_extended_THT
+
+
+0
+36
+36
+shoonies_parts
+D_SOD-123_CLEAN
+
+
+0
+2
+2
+shoonies_parts
+D_SOD-123_REVERSE
+SOD-123
+SOD-123
+0
+2
+2
+shoonies_parts
+MountingHole_2.2mm_M2_Pad_MOD
+Mounting Hole 2.2mm, M2
+mounting hole 2.2mm m2
+0
+1
+1
+shoonies_parts
+PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Left_BLANK
+surface-mounted straight pin header, 1x03, 2.54mm pitch, single row, style 1 (pin 1 left)
+Surface mounted pin header SMD 1x03 2.54mm single row style1 pin1 left
+0
+0
+0
+shoonies_parts
+PinHeader_1x19_P2.54mm_Vertical_SMD_Pin1Left_BLANK
+surface-mounted straight pin header, 1x19, 2.54mm pitch, single row, style 1 (pin 1 left)
+Surface mounted pin header SMD 1x19 2.54mm single row style1 pin1 left
+0
+0
+0
+shoonies_parts
+RS6011YA600M
+
+
+0
+8
+7
+shoonies_parts
+SW_MX_1u_MOD
+Footprint for Cherry MX style switches
+cherry mx switch
+0
+2
+2
+shoonies_parts
+SW_MX_HS_S_1u_MOD
+Footprint for Cherry MX style switches with Kailh hotswap socket
+
+0
+6
+2
+shoonies_parts
+bend 1u
+
+
+0
+3
+1
+shoonies_parts
+bottom_row_guide
+
+
+0
+0
+0
+shoonies_parts
+flex_slot
+
+
+0
+1
+1
+shoonies_parts
+info
+
+
+0
+0
+0

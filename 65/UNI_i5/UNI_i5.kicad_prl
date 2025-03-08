@@ -80,27 +80,15 @@
   "project": {
     "files": [
       {
-        "name": "UNI_i5.kicad_sch",
+        "name": "UNI_i5.kicad_pcb",
         "open": false,
         "window": {
           "display": 0,
-          "maximized": false,
-          "pos_x": -7,
-          "pos_y": 0,
-          "size_x": 1734,
-          "size_y": 1407
-        }
-      },
-      {
-        "name": "UNI_i5.kicad_pcb",
-        "open": true,
-        "window": {
-          "display": 0,
-          "maximized": false,
-          "pos_x": 1713,
-          "pos_y": 0,
-          "size_x": 1734,
-          "size_y": 1407
+          "maximized": true,
+          "pos_x": -8,
+          "pos_y": -8,
+          "size_x": 3456,
+          "size_y": 1416
         }
       }
     ]

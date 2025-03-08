@@ -1,0 +1,23 @@
+{
+    "tabs": {
+        "type": "annotation"
+    },
+    "cuts": {
+        "type": "mousebites",
+        "drill": "0.6mm",
+        "spacing": "1mm"
+    },
+    "framing": {
+        "type": "railstb"
+    },
+    "tooling": {
+        "type": "4hole",
+        "hoffset": "3mm",
+        "voffset": "2.85mm"
+    },
+    "fiducials": {
+        "type": "4fid",
+        "hoffset": "6mm",
+        "voffset": "3.85mm"
+    }
+}

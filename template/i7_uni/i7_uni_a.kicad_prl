@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 0,
     "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -20,7 +20,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -58,7 +58,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "i7_uni.kicad_prl",
+    "filename": "i7_uni_a.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -114,27 +114,15 @@
   "project": {
     "files": [
       {
-        "name": "i7_uni.kicad_pcb",
+        "name": "i7_uni_a.kicad_pcb",
         "open": false,
         "window": {
           "display": 0,
-          "maximized": false,
-          "pos_x": 1149,
-          "pos_y": 0,
-          "size_x": 2298,
-          "size_y": 1407
-        }
-      },
-      {
-        "name": "i7_uni.kicad_sch",
-        "open": true,
-        "window": {
-          "display": 0,
-          "maximized": false,
-          "pos_x": -7,
-          "pos_y": 0,
-          "size_x": 1170,
-          "size_y": 1407
+          "maximized": true,
+          "pos_x": -8,
+          "pos_y": -8,
+          "size_x": 3456,
+          "size_y": 1416
         }
       }
     ]

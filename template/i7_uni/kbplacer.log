@@ -1,0 +1,76 @@
+[kbplacer_plugin_action.py:65]: Plugin version: 0.13
+[kbplacer_plugin_action.py:66]: Python version: '3.11.5 (main, Jan 27 2025, 07:08:36) [MSC v.1942 64 bit (AMD64)]'
+[kbplacer_plugin_action.py:67]: KiCad version: 9.0.0 with 4.2.2 msw (phoenix) wxWidgets 3.2.6
+[kbplacer_dialog.py:586]: Language: en
+[kbplacer_plugin_action.py:75]: GUI state: {"layout_path": "C:\\Users\\shoonie\\Downloads\\keyboard-layout.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "SW{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 180.0, "side": "Back"}, "template_path": ""}, "enable_diode_placement": true, "route_switches_with_diodes": true, "optimize_diodes_orientation": false, "diode_info": {"annotation_format": "D{}", "position_option": "Custom", "position": {"x": 2.381, "y": -2.381, "orientation": -45.0, "side": "Back"}, "template_path": ""}, "additional_elements": [{"annotation_format": "S{}", "position_option": "Custom", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Back"}, "template_path": ""}], "route_rows_and_columns": true, "template_path": "", "generate_outline": false, "outline_delta": 0.0}
+[key_placer.py:362]: Set key 1U distance: 19050000/19050000
+[key_placer.py:124]: Switches by nets: defaultdict(<class 'list'>, {frozenset({'unconnected-(SW1-Pad2)', 'unconnected-(D1-K-Pad1)'}): ['SW1'], frozenset({'unconnected-(D2-K-Pad1)', 'unconnected-(SW2-Pad2)'}): ['SW2'], frozenset({'unconnected-(D3-K-Pad1)', 'unconnected-(SW3-Pad2)'}): ['SW3'], frozenset({'unconnected-(D4-K-Pad1)', 'unconnected-(SW4-Pad2)'}): ['SW4']})
+[key_placer.py:128]: Diodes by switch: {'SW1': ['D1'], 'SW2': ['D2'], 'SW3': ['D3'], 'SW4': ['D4']}
+[kle_serial.py:897]: User layout: [[{'a': 7, 'w': 2}, '', {'w': 2}, ''], [{'w': 2}, '', {'w': 2}, '']]
+[key_placer.py:662]: Layout offset: (38100000, 28575000)
+[board_modifier.py:85]: Setting SW1 footprint position: (57150000, 38100000)
+[board_modifier.py:85]: Setting SW2 footprint position: (95250000, 38100000)
+[board_modifier.py:85]: Setting SW3 footprint position: (57150000, 57150000)
+[board_modifier.py:85]: Setting SW4 footprint position: (95250000, 57150000)
+[key_placer.py:999]: Diode info: [ElementInfo(annotation_format='D{}', position_option=<PositionOption.CUSTOM: 'Custom'>, position=ElementPosition(x=2.381, y=-2.381, orientation=-45.0, side=<Side.BACK: 'Back'>), template_path='')]
+[board_modifier.py:98]: Getting SW1 footprint position: (57150000, 38100000)
+[board_modifier.py:85]: Setting D1 footprint position: (54769000, 40480999)
+[board_modifier.py:98]: Getting D1 footprint position: (54769000, 40480999)
+[board_modifier.py:98]: Getting SW2 footprint position: (95250000, 38100000)
+[board_modifier.py:85]: Setting D2 footprint position: (92869000, 40480999)
+[board_modifier.py:98]: Getting D2 footprint position: (92869000, 40480999)
+[board_modifier.py:98]: Getting SW3 footprint position: (57150000, 57150000)
+[board_modifier.py:85]: Setting D3 footprint position: (54769000, 59530999)
+[board_modifier.py:98]: Getting D3 footprint position: (54769000, 59530999)
+[board_modifier.py:98]: Getting SW4 footprint position: (95250000, 57150000)
+[board_modifier.py:85]: Setting D4 footprint position: (92869000, 59530999)
+[board_modifier.py:98]: Getting D4 footprint position: (92869000, 59530999)
+[key_placer.py:775]: Placing additional elements for SW1
+[board_modifier.py:98]: Getting SW1 footprint position: (57150000, 38100000)
+[board_modifier.py:75]: Searching for optional S1 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\template\i7_uni\i7_uni.kicad_pcb
+[board_modifier.py:85]: Setting S1 footprint position: (57150000, 38100000)
+[board_modifier.py:98]: Getting S1 footprint position: (57150000, 38100000)
+[key_placer.py:775]: Placing additional elements for SW2
+[board_modifier.py:98]: Getting SW2 footprint position: (95250000, 38100000)
+[board_modifier.py:75]: Searching for optional S2 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\template\i7_uni\i7_uni.kicad_pcb
+[board_modifier.py:85]: Setting S2 footprint position: (95250000, 38100000)
+[board_modifier.py:98]: Getting S2 footprint position: (95250000, 38100000)
+[key_placer.py:775]: Placing additional elements for SW3
+[board_modifier.py:98]: Getting SW3 footprint position: (57150000, 57150000)
+[board_modifier.py:75]: Searching for optional S3 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\template\i7_uni\i7_uni.kicad_pcb
+[board_modifier.py:85]: Setting S3 footprint position: (57150000, 57150000)
+[board_modifier.py:98]: Getting S3 footprint position: (57150000, 57150000)
+[key_placer.py:775]: Placing additional elements for SW4
+[board_modifier.py:98]: Getting SW4 footprint position: (95250000, 57150000)
+[board_modifier.py:75]: Searching for optional S4 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\template\i7_uni\i7_uni.kicad_pcb
+[board_modifier.py:85]: Setting S4 footprint position: (95250000, 57150000)
+[board_modifier.py:98]: Getting S4 footprint position: (95250000, 57150000)
+[key_placer.py:424]: Routing SW1 with D1
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:605]: Could not route pads when parent footprints not rotated the same, orientations: 180.0 and 135.0
+[key_placer.py:424]: Routing SW2 with D2
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:605]: Could not route pads when parent footprints not rotated the same, orientations: 180.0 and 135.0
+[key_placer.py:424]: Routing SW3 with D3
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:605]: Could not route pads when parent footprints not rotated the same, orientations: 180.0 and 135.0
+[key_placer.py:424]: Routing SW4 with D4
+[key_placer.py:426]: Using internal autorouter method
+[board_modifier.py:532]: Routing at B.Cu layer
+[board_modifier.py:549]: Netclass: Default, track width: 200000
+[board_modifier.py:605]: Could not route pads when parent footprints not rotated the same, orientations: 180.0 and 135.0
+[key_placer.py:820]: Routing unconnected-(D3-K-Pad1) pads
+[key_placer.py:820]: Routing unconnected-(SW1-Pad2) pads
+[key_placer.py:820]: Routing unconnected-(D1-K-Pad1) pads
+[key_placer.py:820]: Routing unconnected-(SW3-Pad2) pads
+[key_placer.py:820]: Routing unconnected-(D2-K-Pad1) pads
+[key_placer.py:820]: Routing unconnected-(D4-K-Pad1) pads
+[key_placer.py:820]: Routing unconnected-(SW2-Pad2) pads
+[key_placer.py:820]: Routing unconnected-(SW4-Pad2) pads
+[key_placer.py:458]: Removing dangling tracks

@@ -6371,7 +6371,7 @@
 				)
 			)
 		)
-		(property "Value" "SKRPACE010"
+		(property "Value" "BOOT"
 			(at 254 245.5488 0)
 			(effects
 				(font
@@ -6379,7 +6379,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
 			(at 254 245.11 0)
 			(effects
 				(font
@@ -9743,7 +9743,7 @@
 				)
 			)
 		)
-		(property "Value" "SKRPACE010"
+		(property "Value" "REST"
 			(at 260.35 222.6888 0)
 			(effects
 				(font
@@ -9751,7 +9751,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
 			(at 260.35 222.25 0)
 			(effects
 				(font

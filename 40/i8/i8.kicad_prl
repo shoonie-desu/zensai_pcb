@@ -112,32 +112,7 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": [
-      {
-        "name": "i8.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 3456,
-          "size_y": 1416
-        }
-      },
-      {
-        "name": "i8.kicad_sch",
-        "open": true,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 3456,
-          "size_y": 1416
-        }
-      }
-    ]
+    "files": []
   },
   "schematic": {
     "selection_filter": {

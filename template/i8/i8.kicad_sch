@@ -6380,7 +6380,7 @@
 		(at 254 250.19 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6393,7 +6393,7 @@
 				)
 			)
 		)
-		(property "Value" "SKRPACE010"
+		(property "Value" "BOOT"
 			(at 254 245.5488 0)
 			(effects
 				(font
@@ -6401,7 +6401,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
 			(at 254 245.11 0)
 			(effects
 				(font
@@ -9461,7 +9461,7 @@
 		(at 260.35 227.33 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "c43c3e53-45fe-41d2-ad00-e79d4a688e60")
@@ -9473,7 +9473,7 @@
 				)
 			)
 		)
-		(property "Value" "SKRPACE010"
+		(property "Value" "REST"
 			(at 260.35 222.6888 0)
 			(effects
 				(font
@@ -9481,7 +9481,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
 			(at 260.35 222.25 0)
 			(effects
 				(font

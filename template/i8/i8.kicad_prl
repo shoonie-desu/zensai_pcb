@@ -138,18 +138,6 @@
           "size_x": 3456,
           "size_y": 1416
         }
-      },
-      {
-        "name": "i8.kicad_pro",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": false,
-          "pos_x": 446,
-          "pos_y": 406,
-          "size_x": 972,
-          "size_y": 639
-        }
       }
     ]
   },

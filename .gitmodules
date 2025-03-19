@@ -7,3 +7,6 @@
 [submodule "shoesshenanigans"]
 	path = shoesshenanigans
 	url = https://github.com/shoonie-desu/shoesshenanigans.git
+[submodule "RP2350_KiCad"]
+	path = RP2350_KiCad
+	url = https://github.com/HDR/RP2350_KiCad.git

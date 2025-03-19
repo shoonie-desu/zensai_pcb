@@ -1,0 +1,117 @@
+(footprint "JUMP_1x2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6ee17368-6d52-4ff1-a61a-a084a440cf0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "JUMP_1x2"
+		(at 2 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0c01b2ce-8f08-4bfb-b315-e846802690dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "497c6d66-5e44-4297-b5e2-978a41e2de59")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8144349e-c3a8-4645-a9a1-c4f76f84efa3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "TEXT"
+		(at -2.5 0 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "037c86c2-d342-44d2-b302-e26ec33894e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "TEXT"
+		(at -2.5 0 270)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "70e059f2-8b6f-428e-aabc-697d5166895d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "058ea0b1-7c26-455c-bba5-6d85759cc557")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 3 3)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "15587a50-3b39-488f-b634-794b4e259480")
+	)
+	(pad "2" thru_hole roundrect
+		(at -5 0)
+		(size 3 3)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "c8217793-da97-4c30-82e2-d19d195b5a7f")
+	)
+	(embedded_fonts no)
+)

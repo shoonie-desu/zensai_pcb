@@ -6421,7 +6421,7 @@
 				)
 			)
 		)
-		(property "Footprint" "i8:JUMP_1x2"
+		(property "Footprint" "i8:JUMP_BOOT_10.16mm"
 			(at 254 245.11 0)
 			(effects
 				(font
@@ -9501,7 +9501,7 @@
 				)
 			)
 		)
-		(property "Footprint" "i8:JUMP_1x2"
+		(property "Footprint" "i8:JUMP_REST_10.16mm"
 			(at 260.35 222.25 0)
 			(effects
 				(font

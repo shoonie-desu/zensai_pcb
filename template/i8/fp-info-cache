@@ -1,4 +1,4 @@
-44959499618729880
+44968212597693326
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -180754,7 +180754,42 @@ capacitor
 2
 2
 i8
-JUMP_1x2
+JUMPLABEL_1x2
+
+
+0
+2
+2
+i8
+JUMP_BOOT_10.16mm
+
+
+0
+6
+2
+i8
+JUMP_BOOT_10mm
+
+
+0
+6
+2
+i8
+JUMP_REST_10.16mm
+
+
+0
+6
+2
+i8
+JUMP_REST_10mm
+
+
+0
+6
+2
+i8
+Untitled
 
 
 0

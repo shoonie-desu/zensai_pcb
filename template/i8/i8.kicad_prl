@@ -116,6 +116,18 @@
   "project": {
     "files": [
       {
+        "name": "i8.kicad_sch",
+        "open": true,
+        "window": {
+          "display": 1,
+          "maximized": false,
+          "pos_x": 1763,
+          "pos_y": -1080,
+          "size_x": 974,
+          "size_y": 1047
+        }
+      },
+      {
         "name": "i8.kicad_pcb",
         "open": false,
         "window": {

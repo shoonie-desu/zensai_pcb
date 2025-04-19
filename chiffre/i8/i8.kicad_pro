@@ -672,5 +672,7 @@
       "Root"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "VERDISPLAY": "asdf"
+  }
 }

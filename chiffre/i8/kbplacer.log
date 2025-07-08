@@ -4,17 +4,17 @@
 [kbplacer_dialog.py:586]: Language: en
 [kbplacer_plugin_action.py:75]: GUI state: {"layout_path": "C:\\Users\\shoonie\\Downloads\\zensai-chiffre'.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "SW{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 180.0, "side": "Back"}, "template_path": ""}, "enable_diode_placement": true, "route_switches_with_diodes": false, "optimize_diodes_orientation": false, "diode_info": {"annotation_format": "D{}", "position_option": "Relative", "position": null, "template_path": ""}, "additional_elements": [{"annotation_format": "S{}", "position_option": "Custom", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Back"}, "template_path": ""}], "route_rows_and_columns": false, "template_path": "", "generate_outline": false, "outline_delta": 0.0}
 [key_placer.py:362]: Set key 1U distance: 19050000/19050000
-[key_placer.py:124]: Switches by nets: defaultdict(<class 'list'>, {frozenset({'unconnected-(SW33-Pad2)', 'unconnected-(D33-K-Pad1)'}): ['SW33'], frozenset({'unconnected-(SW32-Pad2)', 'unconnected-(D32-K-Pad1)'}): ['SW32'], frozenset({'unconnected-(SW34-Pad2)', 'unconnected-(D34-K-Pad1)'}): ['SW34'], frozenset({'unconnected-(D5-K-Pad1)', 'unconnected-(SW5-Pad2)'}): ['SW5'], frozenset({'unconnected-(D6-K-Pad1)', 'unconnected-(SW6-Pad2)'}): ['SW6'], frozenset({'unconnected-(SW2-Pad2)', 'unconnected-(D2-K-Pad1)'}): ['SW2'], frozenset({'unconnected-(SW18-Pad2)', 'unconnected-(D18-K-Pad1)'}): ['SW18'], frozenset({'unconnected-(SW3-Pad2)', 'unconnected-(D3-K-Pad1)'}): ['SW3'], frozenset({'unconnected-(D7-K-Pad1)', 'unconnected-(SW7-Pad2)'}): ['SW7'], frozenset({'unconnected-(D9-K-Pad1)', 'unconnected-(SW9-Pad2)'}): ['SW9'], frozenset({'unconnected-(D11-K-Pad1)', 'unconnected-(SW11-Pad2)'}): ['SW11'], frozenset({'unconnected-(D16-K-Pad1)', 'unconnected-(SW16-Pad2)'}): ['SW16'], frozenset({'unconnected-(D27-K-Pad1)', 'unconnected-(SW27-Pad2)'}): ['SW27'], frozenset({'unconnected-(SW8-Pad2)', 'unconnected-(D8-K-Pad1)'}): ['SW8'], frozenset({'unconnected-(SW1-Pad2)', 'unconnected-(D1-K-Pad1)'}): ['SW1'], frozenset({'unconnected-(D4-K-Pad1)', 'unconnected-(SW4-Pad2)'}): ['SW4'], frozenset({'unconnected-(D12-K-Pad1)', 'unconnected-(SW12-Pad2)'}): ['SW12'], frozenset({'unconnected-(SW13-Pad2)', 'unconnected-(D13-K-Pad1)'}): ['SW13'], frozenset({'unconnected-(D14-K-Pad1)', 'unconnected-(SW14-Pad2)'}): ['SW14'], frozenset({'unconnected-(SW15-Pad2)', 'unconnected-(D15-K-Pad1)'}): ['SW15'], frozenset({'unconnected-(SW17-Pad2)', 'unconnected-(D17-K-Pad1)'}): ['SW17'], frozenset({'unconnected-(SW10-Pad2)', 'unconnected-(D10-K-Pad1)'}): ['SW10'], frozenset({'unconnected-(D19-K-Pad1)', 'unconnected-(SW19-Pad2)'}): ['SW19'], frozenset({'unconnected-(SW20-Pad2)', 'unconnected-(D20-K-Pad1)'}): ['SW20'], frozenset({'unconnected-(SW21-Pad2)', 'unconnected-(D21-K-Pad1)'}): ['SW21'], frozenset({'unconnected-(SW22-Pad2)', 'unconnected-(D22-K-Pad1)'}): ['SW22'], frozenset({'unconnected-(SW23-Pad2)', 'unconnected-(D23-K-Pad1)'}): ['SW23'], frozenset({'unconnected-(SW24-Pad2)', 'unconnected-(D24-K-Pad1)'}): ['SW24'], frozenset({'unconnected-(SW25-Pad2)', 'unconnected-(D25-K-Pad1)'}): ['SW25'], frozenset({'unconnected-(D26-K-Pad1)', 'unconnected-(SW26-Pad2)'}): ['SW26'], frozenset({'unconnected-(SW28-Pad2)', 'unconnected-(D28-K-Pad1)'}): ['SW28'], frozenset({'unconnected-(D29-K-Pad1)', 'unconnected-(SW29-Pad2)'}): ['SW29'], frozenset({'unconnected-(D30-K-Pad1)', 'unconnected-(SW30-Pad2)'}): ['SW30'], frozenset({'unconnected-(SW31-Pad2)', 'unconnected-(D31-K-Pad1)'}): ['SW31']})
-[key_placer.py:128]: Diodes by switch: {'SW34': ['D34'], 'SW29': ['D29'], 'SW28': ['D28'], 'SW31': ['D31'], 'SW33': ['D33'], 'SW30': ['D30'], 'SW32': ['D32'], 'SW1': ['D1'], 'SW4': ['D4'], 'SW15': ['D15'], 'SW7': ['D7'], 'SW13': ['D13'], 'SW19': ['D19'], 'SW21': ['D21'], 'SW23': ['D23'], 'SW2': ['D2'], 'SW6': ['D6'], 'SW26': ['D26'], 'SW8': ['D8'], 'SW27': ['D27'], 'SW14': ['D14'], 'SW10': ['D10'], 'SW3': ['D3'], 'SW5': ['D5'], 'SW9': ['D9'], 'SW11': ['D11'], 'SW12': ['D12'], 'SW17': ['D17'], 'SW16': ['D16'], 'SW18': ['D18'], 'SW20': ['D20'], 'SW22': ['D22'], 'SW24': ['D24'], 'SW25': ['D25']}
+[key_placer.py:124]: Switches by nets: defaultdict(<class 'list'>, {frozenset({'COL0', 'ROW2'}): ['SW15'], frozenset({'ROW1', 'COL1'}): ['SW7'], frozenset({'ROW1', 'COL2'}): ['SW6'], frozenset({'ROW1', 'COL4'}): ['SW9'], frozenset({'COL0', 'ROW0'}): ['SW5'], frozenset({'COL2', 'ROW3'}): ['SW16'], frozenset({'ROW1', 'COL0'}): ['SW10'], frozenset({'ROW3', 'COL4'}): ['SW17'], frozenset({'ROW0', 'COL3'}): ['SW3'], frozenset({'ROW2', 'COL4'}): ['SW14'], frozenset({'ROW0', 'COL4'}): ['SW4'], frozenset({'COL8', 'ROW0'}): ['SW18'], frozenset({'COL2', 'ROW2'}): ['SW11'], frozenset({'COL6', 'ROW0'}): ['SW19'], frozenset({'ROW1', 'COL3'}): ['SW8'], frozenset({'ROW2', 'COL1'}): ['SW12'], frozenset({'COL7', 'ROW0'}): ['SW20'], frozenset({'ROW2', 'COL3'}): ['SW13'], frozenset({'COL2', 'ROW0'}): ['SW1'], frozenset({'COL1', 'ROW0'}): ['SW2'], frozenset({'COL6', 'ROW3'}): ['SW33'], frozenset({'COL7', 'ROW2'}): ['SW30'], frozenset({'COL8', 'ROW2'}): ['SW28'], frozenset({'ROW2', 'COL9'}): ['SW31'], frozenset({'ROW1', 'COL8'}): ['SW23'], frozenset({'ROW1', 'COL6'}): ['SW24'], frozenset({'ROW2', 'COL6'}): ['SW29'], frozenset({'ROW1', 'COL9'}): ['SW26'], frozenset({'ROW1', 'COL10'}): ['SW27'], frozenset({'COL10', 'ROW0'}): ['SW22'], frozenset({'ROW0', 'COL9'}): ['SW21'], frozenset({'ROW1', 'COL7'}): ['SW25'], frozenset({'COL10', 'ROW2'}): ['SW32'], frozenset({'COL8', 'ROW3'}): ['SW34']})
+[key_placer.py:128]: Diodes by switch: {'SW4': ['D4'], 'SW1': ['D1'], 'SW2': ['D2'], 'SW3': ['D3'], 'SW5': ['D5'], 'SW7': ['D7'], 'SW8': ['D8'], 'SW9': ['D9'], 'SW6': ['D6'], 'SW14': ['D14'], 'SW20': ['D20'], 'SW12': ['D12'], 'SW29': ['D29'], 'SW11': ['D11'], 'SW19': ['D19'], 'SW28': ['D28'], 'SW27': ['D27'], 'SW13': ['D13'], 'SW15': ['D15'], 'SW10': ['D10'], 'SW16': ['D16'], 'SW17': ['D17'], 'SW18': ['D18'], 'SW22': ['D22'], 'SW21': ['D21'], 'SW26': ['D26'], 'SW24': ['D24'], 'SW25': ['D25'], 'SW23': ['D23'], 'SW30': ['D30'], 'SW33': ['D33'], 'SW34': ['D34'], 'SW32': ['D32'], 'SW31': ['D31']}
 [board_modifier.py:64]: Searching for SW1 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
 [key_placer.py:558]: Looking for connection template between SW1 and other elements
-[board_modifier.py:98]: Getting SW1 footprint position: (93734205, 43833030)
+[board_modifier.py:98]: Getting SW1 footprint position: (0, 0)
 [key_placer.py:602]: Got connection template: 
-[key_placer.py:124]: Switches by nets: defaultdict(<class 'list'>, {frozenset({'unconnected-(SW33-Pad2)', 'unconnected-(D33-K-Pad1)'}): ['SW33'], frozenset({'unconnected-(SW32-Pad2)', 'unconnected-(D32-K-Pad1)'}): ['SW32'], frozenset({'unconnected-(SW34-Pad2)', 'unconnected-(D34-K-Pad1)'}): ['SW34'], frozenset({'unconnected-(D5-K-Pad1)', 'unconnected-(SW5-Pad2)'}): ['SW5'], frozenset({'unconnected-(D6-K-Pad1)', 'unconnected-(SW6-Pad2)'}): ['SW6'], frozenset({'unconnected-(SW2-Pad2)', 'unconnected-(D2-K-Pad1)'}): ['SW2'], frozenset({'unconnected-(SW18-Pad2)', 'unconnected-(D18-K-Pad1)'}): ['SW18'], frozenset({'unconnected-(SW3-Pad2)', 'unconnected-(D3-K-Pad1)'}): ['SW3'], frozenset({'unconnected-(D7-K-Pad1)', 'unconnected-(SW7-Pad2)'}): ['SW7'], frozenset({'unconnected-(D9-K-Pad1)', 'unconnected-(SW9-Pad2)'}): ['SW9'], frozenset({'unconnected-(D11-K-Pad1)', 'unconnected-(SW11-Pad2)'}): ['SW11'], frozenset({'unconnected-(D16-K-Pad1)', 'unconnected-(SW16-Pad2)'}): ['SW16'], frozenset({'unconnected-(D27-K-Pad1)', 'unconnected-(SW27-Pad2)'}): ['SW27'], frozenset({'unconnected-(SW8-Pad2)', 'unconnected-(D8-K-Pad1)'}): ['SW8'], frozenset({'unconnected-(SW1-Pad2)', 'unconnected-(D1-K-Pad1)'}): ['SW1'], frozenset({'unconnected-(D4-K-Pad1)', 'unconnected-(SW4-Pad2)'}): ['SW4'], frozenset({'unconnected-(D12-K-Pad1)', 'unconnected-(SW12-Pad2)'}): ['SW12'], frozenset({'unconnected-(SW13-Pad2)', 'unconnected-(D13-K-Pad1)'}): ['SW13'], frozenset({'unconnected-(D14-K-Pad1)', 'unconnected-(SW14-Pad2)'}): ['SW14'], frozenset({'unconnected-(SW15-Pad2)', 'unconnected-(D15-K-Pad1)'}): ['SW15'], frozenset({'unconnected-(SW17-Pad2)', 'unconnected-(D17-K-Pad1)'}): ['SW17'], frozenset({'unconnected-(SW10-Pad2)', 'unconnected-(D10-K-Pad1)'}): ['SW10'], frozenset({'unconnected-(D19-K-Pad1)', 'unconnected-(SW19-Pad2)'}): ['SW19'], frozenset({'unconnected-(SW20-Pad2)', 'unconnected-(D20-K-Pad1)'}): ['SW20'], frozenset({'unconnected-(SW21-Pad2)', 'unconnected-(D21-K-Pad1)'}): ['SW21'], frozenset({'unconnected-(SW22-Pad2)', 'unconnected-(D22-K-Pad1)'}): ['SW22'], frozenset({'unconnected-(SW23-Pad2)', 'unconnected-(D23-K-Pad1)'}): ['SW23'], frozenset({'unconnected-(SW24-Pad2)', 'unconnected-(D24-K-Pad1)'}): ['SW24'], frozenset({'unconnected-(SW25-Pad2)', 'unconnected-(D25-K-Pad1)'}): ['SW25'], frozenset({'unconnected-(D26-K-Pad1)', 'unconnected-(SW26-Pad2)'}): ['SW26'], frozenset({'unconnected-(SW28-Pad2)', 'unconnected-(D28-K-Pad1)'}): ['SW28'], frozenset({'unconnected-(D29-K-Pad1)', 'unconnected-(SW29-Pad2)'}): ['SW29'], frozenset({'unconnected-(D30-K-Pad1)', 'unconnected-(SW30-Pad2)'}): ['SW30'], frozenset({'unconnected-(SW31-Pad2)', 'unconnected-(D31-K-Pad1)'}): ['SW31']})
-[key_placer.py:128]: Diodes by switch: {'SW34': ['D34'], 'SW29': ['D29'], 'SW28': ['D28'], 'SW31': ['D31'], 'SW33': ['D33'], 'SW30': ['D30'], 'SW32': ['D32'], 'SW1': ['D1'], 'SW4': ['D4'], 'SW15': ['D15'], 'SW7': ['D7'], 'SW13': ['D13'], 'SW19': ['D19'], 'SW21': ['D21'], 'SW23': ['D23'], 'SW2': ['D2'], 'SW6': ['D6'], 'SW26': ['D26'], 'SW8': ['D8'], 'SW27': ['D27'], 'SW14': ['D14'], 'SW10': ['D10'], 'SW3': ['D3'], 'SW5': ['D5'], 'SW9': ['D9'], 'SW11': ['D11'], 'SW12': ['D12'], 'SW17': ['D17'], 'SW16': ['D16'], 'SW18': ['D18'], 'SW20': ['D20'], 'SW22': ['D22'], 'SW24': ['D24'], 'SW25': ['D25']}
-[board_modifier.py:98]: Getting SW1 footprint position: (93734205, 43833030)
-[board_modifier.py:98]: Getting D1 footprint position: (85316851, 43999076)
-[key_placer.py:900]: Element info updated: ElementInfo(annotation_format='D{}', position_option=<PositionOption.RELATIVE: 'Relative'>, position=ElementPosition(x=8.334377, y=-1.190625, orientation=-90.0, side=<Side.BACK: 'Back'>), template_path='')
+[key_placer.py:124]: Switches by nets: defaultdict(<class 'list'>, {frozenset({'COL0', 'ROW2'}): ['SW15'], frozenset({'ROW1', 'COL1'}): ['SW7'], frozenset({'ROW1', 'COL2'}): ['SW6'], frozenset({'ROW1', 'COL4'}): ['SW9'], frozenset({'COL0', 'ROW0'}): ['SW5'], frozenset({'COL2', 'ROW3'}): ['SW16'], frozenset({'ROW1', 'COL0'}): ['SW10'], frozenset({'ROW3', 'COL4'}): ['SW17'], frozenset({'ROW0', 'COL3'}): ['SW3'], frozenset({'ROW2', 'COL4'}): ['SW14'], frozenset({'ROW0', 'COL4'}): ['SW4'], frozenset({'COL8', 'ROW0'}): ['SW18'], frozenset({'COL2', 'ROW2'}): ['SW11'], frozenset({'COL6', 'ROW0'}): ['SW19'], frozenset({'ROW1', 'COL3'}): ['SW8'], frozenset({'ROW2', 'COL1'}): ['SW12'], frozenset({'COL7', 'ROW0'}): ['SW20'], frozenset({'ROW2', 'COL3'}): ['SW13'], frozenset({'COL2', 'ROW0'}): ['SW1'], frozenset({'COL1', 'ROW0'}): ['SW2'], frozenset({'COL6', 'ROW3'}): ['SW33'], frozenset({'COL7', 'ROW2'}): ['SW30'], frozenset({'COL8', 'ROW2'}): ['SW28'], frozenset({'ROW2', 'COL9'}): ['SW31'], frozenset({'ROW1', 'COL8'}): ['SW23'], frozenset({'ROW1', 'COL6'}): ['SW24'], frozenset({'ROW2', 'COL6'}): ['SW29'], frozenset({'ROW1', 'COL9'}): ['SW26'], frozenset({'ROW1', 'COL10'}): ['SW27'], frozenset({'COL10', 'ROW0'}): ['SW22'], frozenset({'ROW0', 'COL9'}): ['SW21'], frozenset({'ROW1', 'COL7'}): ['SW25'], frozenset({'COL10', 'ROW2'}): ['SW32'], frozenset({'COL8', 'ROW3'}): ['SW34']})
+[key_placer.py:128]: Diodes by switch: {'SW4': ['D4'], 'SW1': ['D1'], 'SW2': ['D2'], 'SW3': ['D3'], 'SW5': ['D5'], 'SW7': ['D7'], 'SW8': ['D8'], 'SW9': ['D9'], 'SW6': ['D6'], 'SW14': ['D14'], 'SW20': ['D20'], 'SW12': ['D12'], 'SW29': ['D29'], 'SW11': ['D11'], 'SW19': ['D19'], 'SW28': ['D28'], 'SW27': ['D27'], 'SW13': ['D13'], 'SW15': ['D15'], 'SW10': ['D10'], 'SW16': ['D16'], 'SW17': ['D17'], 'SW18': ['D18'], 'SW22': ['D22'], 'SW21': ['D21'], 'SW26': ['D26'], 'SW24': ['D24'], 'SW25': ['D25'], 'SW23': ['D23'], 'SW30': ['D30'], 'SW33': ['D33'], 'SW34': ['D34'], 'SW32': ['D32'], 'SW31': ['D31']}
+[board_modifier.py:98]: Getting SW1 footprint position: (0, 0)
+[board_modifier.py:98]: Getting D1 footprint position: (-2976565, 2976565)
+[key_placer.py:900]: Element info updated: ElementInfo(annotation_format='D{}', position_option=<PositionOption.RELATIVE: 'Relative'>, position=ElementPosition(x=2.976564, y=-2.976565, orientation=-45.0, side=<Side.BACK: 'Back'>), template_path='')
 [kle_serial.py:897]: User layout: [{'name': "ZENSAI Chiffre'", 'author': 'shoonie'}, [{'r': 7, 'rx': 1, 'x': 2, 'a': 5, 'fa': [1]}, 'KC_E'], [{'y': -0.75, 'x': 1}, 'KC_W', {'x': 1}, 'KC_R', 'KC_T'], [{'y': -0.75}, 'KC_Q'], [{'y': -0.5, 'x': 2}, 'KC_D'], [{'y': -0.75, 'x': 1}, 'KC_S', {'x': 1}, 'KC_F', 'KC_G'], [{'y': -0.75}, 'KC_A'], [{'y': -0.5, 'x': 2}, 'KC_C'], [{'y': -0.75, 'x': 1}, 'KC_X', {'x': 1}, 'KC_V', 'KC_B'], [{'y': -0.75}, 'KC_Z'], [{'y': -0.25, 'x': 1.75, 'w': 1.25}, 'KC_LGUI', {'a': 4, 'fa': [1, 0, 0, 0, 0, 0, 0, 0, 1], 'w': 2}, '\n\nu\n\n\n\n\n\nKC_SPC'], [{'r': -7, 'rx': 12.5, 'x': -3, 'a': 5}, 'KC_I'], [{'y': -0.75, 'x': -5}, 'KC_Y', 'KC_U', {'x': 1}, 'KC_O'], [{'y': -0.75, 'x': -1}, 'KC_P'], [{'y': -0.5, 'x': -3}, 'KC_K'], [{'y': -0.75, 'x': -5}, 'KC_H', 'KC_J', {'x': 1}, 'KC_L'], [{'y': -0.75, 'x': -1}, 'KC_SCLN'], [{'y': -0.5, 'x': -3}, 'KC_COMM'], [{'y': -0.75, 'x': -5}, 'KC_N', 'KC_M', {'x': 1}, 'KC_DOT'], [{'y': -0.75, 'x': -1}, 'KC_SLASH'], [{'y': -0.25, 'x': -5, 'a': 4, 'w': 2}, '\n\nu\n\n\n\n\n\nKC_SPC', {'a': 5, 'w': 1.25}, 'MO(1)']]
 [key_placer.py:662]: Layout offset: (28575000, 28575000)
 [board_modifier.py:85]: Setting SW1 footprint position: (95250000, 38100000)
@@ -51,214 +51,206 @@
 [board_modifier.py:85]: Setting SW32 footprint position: (257175000, 85725000)
 [board_modifier.py:85]: Setting SW33 footprint position: (190500000, 100012500)
 [board_modifier.py:85]: Setting SW34 footprint position: (221456250, 100012500)
-[key_placer.py:999]: Diode info: [ElementInfo(annotation_format='D{}', position_option=<PositionOption.RELATIVE: 'Relative'>, position=ElementPosition(x=8.334377, y=-1.190625, orientation=-90.0, side=<Side.BACK: 'Back'>), template_path='')]
+[key_placer.py:999]: Diode info: [ElementInfo(annotation_format='D{}', position_option=<PositionOption.RELATIVE: 'Relative'>, position=ElementPosition(x=2.976564, y=-2.976565, orientation=-45.0, side=<Side.BACK: 'Back'>), template_path='')]
 [board_modifier.py:98]: Getting SW1 footprint position: (93734205, 43833030)
-[board_modifier.py:85]: Setting D1 footprint position: (85316851, 43999075)
-[board_modifier.py:98]: Getting D1 footprint position: (85316851, 43999075)
+[board_modifier.py:85]: Setting D1 footprint position: (90417076, 46424656)
+[board_modifier.py:98]: Getting D1 footprint position: (90417076, 46424656)
 [board_modifier.py:98]: Getting SW2 footprint position: (74245798, 46238420)
-[board_modifier.py:85]: Setting D2 footprint position: (65828444, 46404465)
-[board_modifier.py:98]: Getting D2 footprint position: (65828444, 46404465)
+[board_modifier.py:85]: Setting D2 footprint position: (70928669, 48830046)
+[board_modifier.py:98]: Getting D2 footprint position: (70928669, 48830046)
 [board_modifier.py:98]: Getting SW3 footprint position: (112061806, 50881642)
-[board_modifier.py:85]: Setting D3 footprint position: (103644452, 51047687)
-[board_modifier.py:98]: Getting D3 footprint position: (103644452, 51047687)
+[board_modifier.py:85]: Setting D3 footprint position: (108744677, 53473268)
+[board_modifier.py:98]: Getting D3 footprint position: (108744677, 53473268)
 [board_modifier.py:98]: Getting SW4 footprint position: (130969811, 53203253)
-[board_modifier.py:85]: Setting D4 footprint position: (122552457, 53369298)
-[board_modifier.py:98]: Getting D4 footprint position: (122552457, 53369298)
+[board_modifier.py:85]: Setting D4 footprint position: (127652682, 55794879)
+[board_modifier.py:98]: Getting D4 footprint position: (127652682, 55794879)
 [board_modifier.py:98]: Getting SW5 footprint position: (54757391, 48643810)
-[board_modifier.py:85]: Setting D5 footprint position: (46340037, 48809855)
-[board_modifier.py:98]: Getting D5 footprint position: (46340037, 48809855)
+[board_modifier.py:85]: Setting D5 footprint position: (51440262, 51235436)
+[board_modifier.py:98]: Getting D5 footprint position: (51440262, 51235436)
 [board_modifier.py:98]: Getting SW6 footprint position: (91412594, 62741034)
-[board_modifier.py:85]: Setting D6 footprint position: (82995240, 62907079)
-[board_modifier.py:98]: Getting D6 footprint position: (82995240, 62907079)
+[board_modifier.py:85]: Setting D6 footprint position: (88095465, 65332660)
+[board_modifier.py:98]: Getting D6 footprint position: (88095465, 65332660)
 [board_modifier.py:98]: Getting SW7 footprint position: (71924187, 65146424)
-[board_modifier.py:85]: Setting D7 footprint position: (63506833, 65312469)
-[board_modifier.py:98]: Getting D7 footprint position: (63506833, 65312469)
+[board_modifier.py:85]: Setting D7 footprint position: (68607058, 67738050)
+[board_modifier.py:98]: Getting D7 footprint position: (68607058, 67738050)
 [board_modifier.py:98]: Getting SW8 footprint position: (109740195, 69789646)
-[board_modifier.py:85]: Setting D8 footprint position: (101322841, 69955691)
-[board_modifier.py:98]: Getting D8 footprint position: (101322841, 69955691)
+[board_modifier.py:85]: Setting D8 footprint position: (106423066, 72381272)
+[board_modifier.py:98]: Getting D8 footprint position: (106423066, 72381272)
 [board_modifier.py:98]: Getting SW9 footprint position: (128648200, 72111257)
-[board_modifier.py:85]: Setting D9 footprint position: (120230846, 72277302)
-[board_modifier.py:98]: Getting D9 footprint position: (120230846, 72277302)
+[board_modifier.py:85]: Setting D9 footprint position: (125331071, 74702883)
+[board_modifier.py:98]: Getting D9 footprint position: (125331071, 74702883)
 [board_modifier.py:98]: Getting SW10 footprint position: (52435780, 67551814)
-[board_modifier.py:85]: Setting D10 footprint position: (44018426, 67717859)
-[board_modifier.py:98]: Getting D10 footprint position: (44018426, 67717859)
+[board_modifier.py:85]: Setting D10 footprint position: (49118651, 70143440)
+[board_modifier.py:98]: Getting D10 footprint position: (49118651, 70143440)
 [board_modifier.py:98]: Getting SW11 footprint position: (89090983, 81649038)
-[board_modifier.py:85]: Setting D11 footprint position: (80673629, 81815083)
-[board_modifier.py:98]: Getting D11 footprint position: (80673629, 81815083)
+[board_modifier.py:85]: Setting D11 footprint position: (85773854, 84240664)
+[board_modifier.py:98]: Getting D11 footprint position: (85773854, 84240664)
 [board_modifier.py:98]: Getting SW12 footprint position: (69602576, 84054428)
-[board_modifier.py:85]: Setting D12 footprint position: (61185222, 84220473)
-[board_modifier.py:98]: Getting D12 footprint position: (61185222, 84220473)
+[board_modifier.py:85]: Setting D12 footprint position: (66285447, 86646054)
+[board_modifier.py:98]: Getting D12 footprint position: (66285447, 86646054)
 [board_modifier.py:98]: Getting SW13 footprint position: (107418584, 88697650)
-[board_modifier.py:85]: Setting D13 footprint position: (99001230, 88863695)
-[board_modifier.py:98]: Getting D13 footprint position: (99001230, 88863695)
+[board_modifier.py:85]: Setting D13 footprint position: (104101455, 91289276)
+[board_modifier.py:98]: Getting D13 footprint position: (104101455, 91289276)
 [board_modifier.py:98]: Getting SW14 footprint position: (126326589, 91019261)
-[board_modifier.py:85]: Setting D14 footprint position: (117909235, 91185306)
-[board_modifier.py:98]: Getting D14 footprint position: (117909235, 91185306)
+[board_modifier.py:85]: Setting D14 footprint position: (123009460, 93610887)
+[board_modifier.py:98]: Getting D14 footprint position: (123009460, 93610887)
 [board_modifier.py:98]: Getting SW15 footprint position: (50114169, 86459818)
-[board_modifier.py:85]: Setting D15 footprint position: (41696815, 86625863)
-[board_modifier.py:98]: Getting D15 footprint position: (41696815, 86625863)
+[board_modifier.py:85]: Setting D15 footprint position: (46797040, 89051444)
+[board_modifier.py:98]: Getting D15 footprint position: (46797040, 89051444)
 [board_modifier.py:98]: Getting SW16 footprint position: (83825469, 104993842)
-[board_modifier.py:85]: Setting D16 footprint position: (75408115, 105159887)
-[board_modifier.py:98]: Getting D16 footprint position: (75408115, 105159887)
+[board_modifier.py:85]: Setting D16 footprint position: (80508340, 107585468)
+[board_modifier.py:98]: Getting D16 footprint position: (80508340, 107585468)
 [board_modifier.py:98]: Getting SW17 footprint position: (114550976, 108766460)
-[board_modifier.py:85]: Setting D17 footprint position: (106133622, 108932505)
-[board_modifier.py:98]: Getting D17 footprint position: (106133622, 108932505)
+[board_modifier.py:85]: Setting D17 footprint position: (111233847, 111358086)
+[board_modifier.py:98]: Getting D17 footprint position: (111233847, 111358086)
 [board_modifier.py:98]: Getting SW18 footprint position: (220590795, 43833030)
-[board_modifier.py:85]: Setting D18 footprint position: (212463642, 46030485)
-[board_modifier.py:98]: Getting D18 footprint position: (212463642, 46030485)
+[board_modifier.py:85]: Setting D18 footprint position: (217999170, 47150160)
+[board_modifier.py:98]: Getting D18 footprint position: (217999170, 47150160)
 [board_modifier.py:98]: Getting SW19 footprint position: (183355189, 53203253)
-[board_modifier.py:85]: Setting D19 footprint position: (175228036, 55400708)
-[board_modifier.py:98]: Getting D19 footprint position: (175228036, 55400708)
+[board_modifier.py:85]: Setting D19 footprint position: (180763564, 56520383)
+[board_modifier.py:98]: Getting D19 footprint position: (180763564, 56520383)
 [board_modifier.py:98]: Getting SW20 footprint position: (202263194, 50881642)
-[board_modifier.py:85]: Setting D20 footprint position: (194136041, 53079097)
-[board_modifier.py:98]: Getting D20 footprint position: (194136041, 53079097)
+[board_modifier.py:85]: Setting D20 footprint position: (199671569, 54198772)
+[board_modifier.py:98]: Getting D20 footprint position: (199671569, 54198772)
 [board_modifier.py:98]: Getting SW21 footprint position: (240079202, 46238420)
-[board_modifier.py:85]: Setting D21 footprint position: (231952049, 48435875)
-[board_modifier.py:98]: Getting D21 footprint position: (231952049, 48435875)
+[board_modifier.py:85]: Setting D21 footprint position: (237487577, 49555550)
+[board_modifier.py:98]: Getting D21 footprint position: (237487577, 49555550)
 [board_modifier.py:98]: Getting SW22 footprint position: (259567609, 48643810)
-[board_modifier.py:85]: Setting D22 footprint position: (251440456, 50841265)
-[board_modifier.py:98]: Getting D22 footprint position: (251440456, 50841265)
+[board_modifier.py:85]: Setting D22 footprint position: (256975984, 51960940)
+[board_modifier.py:98]: Getting D22 footprint position: (256975984, 51960940)
 [board_modifier.py:98]: Getting SW23 footprint position: (222912406, 62741034)
-[board_modifier.py:85]: Setting D23 footprint position: (214785253, 64938489)
-[board_modifier.py:98]: Getting D23 footprint position: (214785253, 64938489)
+[board_modifier.py:85]: Setting D23 footprint position: (220320781, 66058164)
+[board_modifier.py:98]: Getting D23 footprint position: (220320781, 66058164)
 [board_modifier.py:98]: Getting SW24 footprint position: (185676800, 72111257)
-[board_modifier.py:85]: Setting D24 footprint position: (177549647, 74308712)
-[board_modifier.py:98]: Getting D24 footprint position: (177549647, 74308712)
+[board_modifier.py:85]: Setting D24 footprint position: (183085175, 75428387)
+[board_modifier.py:98]: Getting D24 footprint position: (183085175, 75428387)
 [board_modifier.py:98]: Getting SW25 footprint position: (204584805, 69789646)
-[board_modifier.py:85]: Setting D25 footprint position: (196457652, 71987101)
-[board_modifier.py:98]: Getting D25 footprint position: (196457652, 71987101)
+[board_modifier.py:85]: Setting D25 footprint position: (201993180, 73106776)
+[board_modifier.py:98]: Getting D25 footprint position: (201993180, 73106776)
 [board_modifier.py:98]: Getting SW26 footprint position: (242400813, 65146424)
-[board_modifier.py:85]: Setting D26 footprint position: (234273660, 67343879)
-[board_modifier.py:98]: Getting D26 footprint position: (234273660, 67343879)
+[board_modifier.py:85]: Setting D26 footprint position: (239809188, 68463554)
+[board_modifier.py:98]: Getting D26 footprint position: (239809188, 68463554)
 [board_modifier.py:98]: Getting SW27 footprint position: (261889220, 67551814)
-[board_modifier.py:85]: Setting D27 footprint position: (253762067, 69749269)
-[board_modifier.py:98]: Getting D27 footprint position: (253762067, 69749269)
+[board_modifier.py:85]: Setting D27 footprint position: (259297595, 70868944)
+[board_modifier.py:98]: Getting D27 footprint position: (259297595, 70868944)
 [board_modifier.py:98]: Getting SW28 footprint position: (225234017, 81649038)
-[board_modifier.py:85]: Setting D28 footprint position: (217106864, 83846493)
-[board_modifier.py:98]: Getting D28 footprint position: (217106864, 83846493)
+[board_modifier.py:85]: Setting D28 footprint position: (222642392, 84966168)
+[board_modifier.py:98]: Getting D28 footprint position: (222642392, 84966168)
 [board_modifier.py:98]: Getting SW29 footprint position: (187998411, 91019261)
-[board_modifier.py:85]: Setting D29 footprint position: (179871258, 93216716)
-[board_modifier.py:98]: Getting D29 footprint position: (179871258, 93216716)
+[board_modifier.py:85]: Setting D29 footprint position: (185406786, 94336391)
+[board_modifier.py:98]: Getting D29 footprint position: (185406786, 94336391)
 [board_modifier.py:98]: Getting SW30 footprint position: (206906416, 88697650)
-[board_modifier.py:85]: Setting D30 footprint position: (198779263, 90895105)
-[board_modifier.py:98]: Getting D30 footprint position: (198779263, 90895105)
+[board_modifier.py:85]: Setting D30 footprint position: (204314791, 92014780)
+[board_modifier.py:98]: Getting D30 footprint position: (204314791, 92014780)
 [board_modifier.py:98]: Getting SW31 footprint position: (244722424, 84054428)
-[board_modifier.py:85]: Setting D31 footprint position: (236595271, 86251883)
-[board_modifier.py:98]: Getting D31 footprint position: (236595271, 86251883)
+[board_modifier.py:85]: Setting D31 footprint position: (242130799, 87371558)
+[board_modifier.py:98]: Getting D31 footprint position: (242130799, 87371558)
 [board_modifier.py:98]: Getting SW32 footprint position: (264210831, 86459818)
-[board_modifier.py:85]: Setting D32 footprint position: (256083678, 88657273)
-[board_modifier.py:98]: Getting D32 footprint position: (256083678, 88657273)
+[board_modifier.py:85]: Setting D32 footprint position: (261619206, 89776948)
+[board_modifier.py:98]: Getting D32 footprint position: (261619206, 89776948)
 [board_modifier.py:98]: Getting SW33 footprint position: (199774024, 108766460)
-[board_modifier.py:85]: Setting D33 footprint position: (191646871, 110963915)
-[board_modifier.py:98]: Getting D33 footprint position: (191646871, 110963915)
+[board_modifier.py:85]: Setting D33 footprint position: (197182399, 112083590)
+[board_modifier.py:98]: Getting D33 footprint position: (197182399, 112083590)
 [board_modifier.py:98]: Getting SW34 footprint position: (230499531, 104993842)
-[board_modifier.py:85]: Setting D34 footprint position: (222372378, 107191297)
-[board_modifier.py:98]: Getting D34 footprint position: (222372378, 107191297)
-[key_placer.py:775]: Placing additional elements for SW33
-[board_modifier.py:98]: Getting SW33 footprint position: (199774024, 108766460)
-[board_modifier.py:75]: Searching for optional S33 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
-[board_modifier.py:85]: Setting S33 footprint position: (199774024, 108766460)
-[board_modifier.py:98]: Getting S33 footprint position: (199774024, 108766460)
-[key_placer.py:775]: Placing additional elements for SW32
-[board_modifier.py:98]: Getting SW32 footprint position: (264210831, 86459818)
-[board_modifier.py:75]: Searching for optional S32 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
-[board_modifier.py:80]: Footprint not found
-[key_placer.py:775]: Placing additional elements for SW34
-[board_modifier.py:98]: Getting SW34 footprint position: (230499531, 104993842)
-[board_modifier.py:75]: Searching for optional S34 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
-[board_modifier.py:80]: Footprint not found
-[key_placer.py:775]: Placing additional elements for SW5
-[board_modifier.py:98]: Getting SW5 footprint position: (54757391, 48643810)
-[board_modifier.py:75]: Searching for optional S5 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
-[board_modifier.py:80]: Footprint not found
-[key_placer.py:775]: Placing additional elements for SW6
-[board_modifier.py:98]: Getting SW6 footprint position: (91412594, 62741034)
-[board_modifier.py:75]: Searching for optional S6 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
-[board_modifier.py:80]: Footprint not found
-[key_placer.py:775]: Placing additional elements for SW2
-[board_modifier.py:98]: Getting SW2 footprint position: (74245798, 46238420)
-[board_modifier.py:75]: Searching for optional S2 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
-[board_modifier.py:80]: Footprint not found
-[key_placer.py:775]: Placing additional elements for SW18
-[board_modifier.py:98]: Getting SW18 footprint position: (220590795, 43833030)
-[board_modifier.py:75]: Searching for optional S18 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
-[board_modifier.py:80]: Footprint not found
-[key_placer.py:775]: Placing additional elements for SW3
-[board_modifier.py:98]: Getting SW3 footprint position: (112061806, 50881642)
-[board_modifier.py:75]: Searching for optional S3 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
+[board_modifier.py:85]: Setting D34 footprint position: (227907906, 108310972)
+[board_modifier.py:98]: Getting D34 footprint position: (227907906, 108310972)
+[key_placer.py:775]: Placing additional elements for SW15
+[board_modifier.py:98]: Getting SW15 footprint position: (50114169, 86459818)
+[board_modifier.py:75]: Searching for optional S15 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
 [board_modifier.py:80]: Footprint not found
 [key_placer.py:775]: Placing additional elements for SW7
 [board_modifier.py:98]: Getting SW7 footprint position: (71924187, 65146424)
 [board_modifier.py:75]: Searching for optional S7 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
 [board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW6
+[board_modifier.py:98]: Getting SW6 footprint position: (91412594, 62741034)
+[board_modifier.py:75]: Searching for optional S6 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
+[board_modifier.py:80]: Footprint not found
 [key_placer.py:775]: Placing additional elements for SW9
 [board_modifier.py:98]: Getting SW9 footprint position: (128648200, 72111257)
 [board_modifier.py:75]: Searching for optional S9 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
 [board_modifier.py:80]: Footprint not found
-[key_placer.py:775]: Placing additional elements for SW11
-[board_modifier.py:98]: Getting SW11 footprint position: (89090983, 81649038)
-[board_modifier.py:75]: Searching for optional S11 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
+[key_placer.py:775]: Placing additional elements for SW5
+[board_modifier.py:98]: Getting SW5 footprint position: (54757391, 48643810)
+[board_modifier.py:75]: Searching for optional S5 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
 [board_modifier.py:80]: Footprint not found
 [key_placer.py:775]: Placing additional elements for SW16
 [board_modifier.py:98]: Getting SW16 footprint position: (83825469, 104993842)
 [board_modifier.py:75]: Searching for optional S16 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
 [board_modifier.py:80]: Footprint not found
-[key_placer.py:775]: Placing additional elements for SW27
-[board_modifier.py:98]: Getting SW27 footprint position: (261889220, 67551814)
-[board_modifier.py:75]: Searching for optional S27 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
-[board_modifier.py:80]: Footprint not found
-[key_placer.py:775]: Placing additional elements for SW8
-[board_modifier.py:98]: Getting SW8 footprint position: (109740195, 69789646)
-[board_modifier.py:75]: Searching for optional S8 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
-[board_modifier.py:80]: Footprint not found
-[key_placer.py:775]: Placing additional elements for SW1
-[board_modifier.py:98]: Getting SW1 footprint position: (93734205, 43833030)
-[board_modifier.py:75]: Searching for optional S1 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
-[board_modifier.py:80]: Footprint not found
-[key_placer.py:775]: Placing additional elements for SW4
-[board_modifier.py:98]: Getting SW4 footprint position: (130969811, 53203253)
-[board_modifier.py:75]: Searching for optional S4 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
-[board_modifier.py:80]: Footprint not found
-[key_placer.py:775]: Placing additional elements for SW12
-[board_modifier.py:98]: Getting SW12 footprint position: (69602576, 84054428)
-[board_modifier.py:75]: Searching for optional S12 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
-[board_modifier.py:80]: Footprint not found
-[key_placer.py:775]: Placing additional elements for SW13
-[board_modifier.py:98]: Getting SW13 footprint position: (107418584, 88697650)
-[board_modifier.py:75]: Searching for optional S13 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
-[board_modifier.py:80]: Footprint not found
-[key_placer.py:775]: Placing additional elements for SW14
-[board_modifier.py:98]: Getting SW14 footprint position: (126326589, 91019261)
-[board_modifier.py:75]: Searching for optional S14 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
-[board_modifier.py:80]: Footprint not found
-[key_placer.py:775]: Placing additional elements for SW15
-[board_modifier.py:98]: Getting SW15 footprint position: (50114169, 86459818)
-[board_modifier.py:75]: Searching for optional S15 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
+[key_placer.py:775]: Placing additional elements for SW10
+[board_modifier.py:98]: Getting SW10 footprint position: (52435780, 67551814)
+[board_modifier.py:75]: Searching for optional S10 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
 [board_modifier.py:80]: Footprint not found
 [key_placer.py:775]: Placing additional elements for SW17
 [board_modifier.py:98]: Getting SW17 footprint position: (114550976, 108766460)
 [board_modifier.py:75]: Searching for optional S17 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
 [board_modifier.py:85]: Setting S17 footprint position: (114550976, 108766460)
 [board_modifier.py:98]: Getting S17 footprint position: (114550976, 108766460)
-[key_placer.py:775]: Placing additional elements for SW10
-[board_modifier.py:98]: Getting SW10 footprint position: (52435780, 67551814)
-[board_modifier.py:75]: Searching for optional S10 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
+[key_placer.py:775]: Placing additional elements for SW3
+[board_modifier.py:98]: Getting SW3 footprint position: (112061806, 50881642)
+[board_modifier.py:75]: Searching for optional S3 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW14
+[board_modifier.py:98]: Getting SW14 footprint position: (126326589, 91019261)
+[board_modifier.py:75]: Searching for optional S14 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW4
+[board_modifier.py:98]: Getting SW4 footprint position: (130969811, 53203253)
+[board_modifier.py:75]: Searching for optional S4 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW18
+[board_modifier.py:98]: Getting SW18 footprint position: (220590795, 43833030)
+[board_modifier.py:75]: Searching for optional S18 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW11
+[board_modifier.py:98]: Getting SW11 footprint position: (89090983, 81649038)
+[board_modifier.py:75]: Searching for optional S11 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
 [board_modifier.py:80]: Footprint not found
 [key_placer.py:775]: Placing additional elements for SW19
 [board_modifier.py:98]: Getting SW19 footprint position: (183355189, 53203253)
 [board_modifier.py:75]: Searching for optional S19 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
 [board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW8
+[board_modifier.py:98]: Getting SW8 footprint position: (109740195, 69789646)
+[board_modifier.py:75]: Searching for optional S8 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW12
+[board_modifier.py:98]: Getting SW12 footprint position: (69602576, 84054428)
+[board_modifier.py:75]: Searching for optional S12 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
+[board_modifier.py:80]: Footprint not found
 [key_placer.py:775]: Placing additional elements for SW20
 [board_modifier.py:98]: Getting SW20 footprint position: (202263194, 50881642)
 [board_modifier.py:75]: Searching for optional S20 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
 [board_modifier.py:80]: Footprint not found
-[key_placer.py:775]: Placing additional elements for SW21
-[board_modifier.py:98]: Getting SW21 footprint position: (240079202, 46238420)
-[board_modifier.py:75]: Searching for optional S21 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
+[key_placer.py:775]: Placing additional elements for SW13
+[board_modifier.py:98]: Getting SW13 footprint position: (107418584, 88697650)
+[board_modifier.py:75]: Searching for optional S13 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
 [board_modifier.py:80]: Footprint not found
-[key_placer.py:775]: Placing additional elements for SW22
-[board_modifier.py:98]: Getting SW22 footprint position: (259567609, 48643810)
-[board_modifier.py:75]: Searching for optional S22 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
+[key_placer.py:775]: Placing additional elements for SW1
+[board_modifier.py:98]: Getting SW1 footprint position: (93734205, 43833030)
+[board_modifier.py:75]: Searching for optional S1 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW2
+[board_modifier.py:98]: Getting SW2 footprint position: (74245798, 46238420)
+[board_modifier.py:75]: Searching for optional S2 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW33
+[board_modifier.py:98]: Getting SW33 footprint position: (199774024, 108766460)
+[board_modifier.py:75]: Searching for optional S33 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
+[board_modifier.py:85]: Setting S33 footprint position: (199774024, 108766460)
+[board_modifier.py:98]: Getting S33 footprint position: (199774024, 108766460)
+[key_placer.py:775]: Placing additional elements for SW30
+[board_modifier.py:98]: Getting SW30 footprint position: (206906416, 88697650)
+[board_modifier.py:75]: Searching for optional S30 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW28
+[board_modifier.py:98]: Getting SW28 footprint position: (225234017, 81649038)
+[board_modifier.py:75]: Searching for optional S28 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW31
+[board_modifier.py:98]: Getting SW31 footprint position: (244722424, 84054428)
+[board_modifier.py:75]: Searching for optional S31 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
 [board_modifier.py:80]: Footprint not found
 [key_placer.py:775]: Placing additional elements for SW23
 [board_modifier.py:98]: Getting SW23 footprint position: (222912406, 62741034)
@@ -268,27 +260,35 @@
 [board_modifier.py:98]: Getting SW24 footprint position: (185676800, 72111257)
 [board_modifier.py:75]: Searching for optional S24 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
 [board_modifier.py:80]: Footprint not found
-[key_placer.py:775]: Placing additional elements for SW25
-[board_modifier.py:98]: Getting SW25 footprint position: (204584805, 69789646)
-[board_modifier.py:75]: Searching for optional S25 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
+[key_placer.py:775]: Placing additional elements for SW29
+[board_modifier.py:98]: Getting SW29 footprint position: (187998411, 91019261)
+[board_modifier.py:75]: Searching for optional S29 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
 [board_modifier.py:80]: Footprint not found
 [key_placer.py:775]: Placing additional elements for SW26
 [board_modifier.py:98]: Getting SW26 footprint position: (242400813, 65146424)
 [board_modifier.py:75]: Searching for optional S26 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
 [board_modifier.py:80]: Footprint not found
-[key_placer.py:775]: Placing additional elements for SW28
-[board_modifier.py:98]: Getting SW28 footprint position: (225234017, 81649038)
-[board_modifier.py:75]: Searching for optional S28 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
+[key_placer.py:775]: Placing additional elements for SW27
+[board_modifier.py:98]: Getting SW27 footprint position: (261889220, 67551814)
+[board_modifier.py:75]: Searching for optional S27 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
 [board_modifier.py:80]: Footprint not found
-[key_placer.py:775]: Placing additional elements for SW29
-[board_modifier.py:98]: Getting SW29 footprint position: (187998411, 91019261)
-[board_modifier.py:75]: Searching for optional S29 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
+[key_placer.py:775]: Placing additional elements for SW22
+[board_modifier.py:98]: Getting SW22 footprint position: (259567609, 48643810)
+[board_modifier.py:75]: Searching for optional S22 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
 [board_modifier.py:80]: Footprint not found
-[key_placer.py:775]: Placing additional elements for SW30
-[board_modifier.py:98]: Getting SW30 footprint position: (206906416, 88697650)
-[board_modifier.py:75]: Searching for optional S30 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
+[key_placer.py:775]: Placing additional elements for SW21
+[board_modifier.py:98]: Getting SW21 footprint position: (240079202, 46238420)
+[board_modifier.py:75]: Searching for optional S21 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
 [board_modifier.py:80]: Footprint not found
-[key_placer.py:775]: Placing additional elements for SW31
-[board_modifier.py:98]: Getting SW31 footprint position: (244722424, 84054428)
-[board_modifier.py:75]: Searching for optional S31 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
+[key_placer.py:775]: Placing additional elements for SW25
+[board_modifier.py:98]: Getting SW25 footprint position: (204584805, 69789646)
+[board_modifier.py:75]: Searching for optional S25 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW32
+[board_modifier.py:98]: Getting SW32 footprint position: (264210831, 86459818)
+[board_modifier.py:75]: Searching for optional S32 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
+[board_modifier.py:80]: Footprint not found
+[key_placer.py:775]: Placing additional elements for SW34
+[board_modifier.py:98]: Getting SW34 footprint position: (230499531, 104993842)
+[board_modifier.py:75]: Searching for optional S34 footprint in C:\Users\shoonie\Documents\GitHub\keyboards\.zensai_pcb\chiffre\i8\i8.kicad_pcb
 [board_modifier.py:80]: Footprint not found

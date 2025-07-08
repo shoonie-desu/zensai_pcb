@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 17,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -33,7 +33,6 @@
       "footprint_text",
       "footprint_anchors",
       "ratsnest",
-      "grid",
       "footprints_front",
       "footprints_back",
       "footprint_values",
@@ -58,7 +57,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "PANEL.kicad_prl",
+    "filename": "i8v1_tako_PANEL0617.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -112,20 +111,7 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": [
-      {
-        "name": "PANEL.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 3456,
-          "size_y": 1416
-        }
-      }
-    ]
+    "files": []
   },
   "schematic": {
     "selection_filter": {

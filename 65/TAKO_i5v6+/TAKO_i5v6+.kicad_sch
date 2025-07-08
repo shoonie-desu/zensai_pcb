@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "2cf6646f-26e0-435f-a6db-0d19cf4986ba")
 	(paper "A3")
+	(title_block
+		(rev "v7")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x05"
 			(pin_names

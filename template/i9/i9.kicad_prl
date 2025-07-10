@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 0,
-    "active_layer_preset": "All Layers",
+    "active_layer": 25,
+    "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -32,7 +32,6 @@
       "vias",
       "footprint_text",
       "footprint_anchors",
-      "ratsnest",
       "grid",
       "footprints_front",
       "footprints_back",
@@ -45,6 +44,7 @@
       "pads",
       "zones",
       "drc_warnings",
+      "drc_exclusions",
       "locked_item_shadows",
       "conflict_shadows",
       "shapes"
@@ -114,30 +114,42 @@
   "project": {
     "files": [
       {
-        "name": "i9.kicad_pcb",
+        "name": "i9.kicad_sch",
         "open": false,
         "window": {
           "display": 0,
+          "maximized": false,
+          "pos_x": 669,
+          "pos_y": 0,
+          "size_x": 2778,
+          "size_y": 1407
+        }
+      },
+      {
+        "name": "i9.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 1,
           "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 3456,
-          "size_y": 1416
+          "pos_x": 822,
+          "pos_y": -1088,
+          "size_x": 1936,
+          "size_y": 1056
         }
       }
     ]
   },
   "schematic": {
     "selection_filter": {
-      "graphics": true,
-      "images": true,
-      "labels": true,
+      "graphics": false,
+      "images": false,
+      "labels": false,
       "lockedItems": false,
-      "otherItems": true,
-      "pins": true,
+      "otherItems": false,
+      "pins": false,
       "symbols": true,
-      "text": true,
-      "wires": true
+      "text": false,
+      "wires": false
     }
   }
 }

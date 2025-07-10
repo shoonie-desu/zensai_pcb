@@ -101,6 +101,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -609,7 +610,7 @@
   },
   "sheets": [
     [
-      "00b9a00c-e153-48d3-8b31-27150123d385",
+      "c2a65ddb-3915-4293-98a9-444287fe2a3d",
       "Root"
     ]
   ],

@@ -33,14 +33,12 @@
       "footprint_text",
       "footprint_anchors",
       "ratsnest",
-      "grid",
       "footprints_front",
       "footprints_back",
       "footprint_values",
       "footprint_references",
       "tracks",
       "drc_errors",
-      "drawing_sheet",
       "bitmaps",
       "pads",
       "zones",
@@ -60,7 +58,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "i8.kicad_prl",
+    "filename": "c8.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -116,19 +114,7 @@
   "project": {
     "files": [
       {
-        "name": "i8.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": false,
-          "pos_x": 1713,
-          "pos_y": 0,
-          "size_x": 1734,
-          "size_y": 1407
-        }
-      },
-      {
-        "name": "i8.kicad_pcb",
+        "name": "c8.kicad_pcb",
         "open": false,
         "window": {
           "display": 0,

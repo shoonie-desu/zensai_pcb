@@ -10551,8 +10551,7 @@
 		(effects
 			(font
 				(size 4 4)
-				(thickness 0.8)
-				(bold yes)
+				(thickness 0.5)
 			)
 			(justify left bottom)
 		)
@@ -10704,12 +10703,6 @@
 		(uuid "0bb53308-4272-4203-a0ea-8b8618700db3")
 	)
 	(junction
-		(at 195.58 330.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1015f820-4b15-44d5-82cf-7729cd715d02")
-	)
-	(junction
 		(at 396.24 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10788,10 +10781,10 @@
 		(uuid "364667db-0424-40cc-8667-a44fafbdbab3")
 	)
 	(junction
-		(at 198.12 330.2)
+		(at 199.39 328.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3665a90f-a087-42cb-b3b5-7aedfd189631")
+		(uuid "36f1f5cf-31ab-4de1-8385-4b2df8f9a000")
 	)
 	(junction
 		(at 361.95 44.45)
@@ -11052,6 +11045,12 @@
 		(uuid "a2cbe23b-fae4-4cbf-b80e-d852c1a55614")
 	)
 	(junction
+		(at 194.31 328.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a86f846b-1249-4633-9676-65dc67a226d9")
+	)
+	(junction
 		(at 240.03 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11214,16 +11213,16 @@
 		(uuid "f1b01489-8840-4b1f-909c-c3d6bdda90e7")
 	)
 	(junction
+		(at 196.85 328.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f36280d4-ac85-4d61-a325-aaaca7c71dd7")
+	)
+	(junction
 		(at 363.22 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6810867-2721-4a16-a44b-cf1176071f68")
-	)
-	(junction
-		(at 200.66 330.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f8331997-d8ca-4707-85f0-7922d82123d7")
 	)
 	(junction
 		(at 317.5 205.74)
@@ -12185,6 +12184,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 328.93) (xy 196.85 328.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "770f5932-c9b5-41ad-923c-d39589f020d5")
+	)
+	(wire
+		(pts
 			(xy 22.86 256.54) (xy 36.83 256.54)
 		)
 		(stroke
@@ -12445,16 +12454,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 330.2) (xy 200.66 330.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a342b871-4d00-4f3e-a4c2-b45f3b1f3a91")
-	)
-	(wire
-		(pts
 			(xy 53.34 74.93) (xy 53.34 73.66)
 		)
 		(stroke
@@ -12472,6 +12471,16 @@
 			(type default)
 		)
 		(uuid "a4345fe7-aedf-4622-9d88-dc4543b1b0d3")
+	)
+	(wire
+		(pts
+			(xy 199.39 328.93) (xy 201.93 328.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a487886a-251c-4e2b-b98d-57a468f8b232")
 	)
 	(wire
 		(pts
@@ -12532,6 +12541,16 @@
 			(type default)
 		)
 		(uuid "ae2ce6d3-457b-41eb-b559-0c2f4d619134")
+	)
+	(wire
+		(pts
+			(xy 196.85 328.93) (xy 199.39 328.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af9a981a-a917-4721-8ad8-0a55f25d9e25")
 	)
 	(wire
 		(pts
@@ -12685,16 +12704,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 330.2) (xy 198.12 330.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c23429bc-051e-46f8-a05a-ffc811c893c7")
-	)
-	(wire
-		(pts
 			(xy 80.01 181.61) (xy 80.01 185.42)
 		)
 		(stroke
@@ -12732,16 +12741,6 @@
 			(type default)
 		)
 		(uuid "ca442eb9-ba20-432e-a72f-8b43062b487d")
-	)
-	(wire
-		(pts
-			(xy 200.66 330.2) (xy 203.2 330.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb2bae9b-a2cc-4dbd-a7aa-e6724526b6f7")
 	)
 	(wire
 		(pts
@@ -13155,6 +13154,28 @@
 			)
 		)
 	)
+	(global_label "SDA"
+		(shape bidirectional)
+		(at 220.98 267.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "071f3b48-0329-4f01-a571-ebb6ef8c7f04")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.9612 267.8906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RST"
 		(shape output)
 		(at 140.335 278.13 180)
@@ -13221,28 +13242,6 @@
 			)
 		)
 	)
-	(global_label "SWDCLK"
-		(shape input)
-		(at 176.53 257.81 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0eda2755-bd07-4791-af6b-f1fdfc07f0dc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.6179 257.8894 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SWDIO"
 		(shape bidirectional)
 		(at 29.845 275.59 180)
@@ -13283,6 +13282,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col0"
+		(shape output)
+		(at 223.012 255.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ef01ab4-1c9d-4f08-a9dd-79b7a9d6b81a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.5375 255.1906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -13463,6 +13484,28 @@
 			)
 		)
 	)
+	(global_label "USB-D-"
+		(shape bidirectional)
+		(at 175.26 274.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "400ddf54-7347-44a4-adc9-4d3c59b393de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.6221 274.3994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TEMP1"
 		(shape output)
 		(at 27.94 179.07 180)
@@ -13481,28 +13524,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "col1"
-		(shape output)
-		(at 222.25 259.08 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "451e284e-fa48-4b3c-b514-f69694f7da61")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.7755 259.0006 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -13547,6 +13568,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UG_LV"
+		(shape output)
+		(at 220.98 316.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4c80c748-d31a-401f-847d-7743a959f9fe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.65 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -13683,6 +13726,28 @@
 			)
 		)
 	)
+	(global_label "row1"
+		(shape input)
+		(at 223.012 262.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c6dc365-7fdb-4eae-b624-3bf96101541a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.9003 262.8106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VSENSE"
 		(shape input)
 		(at 68.58 302.26 180)
@@ -13705,72 +13770,6 @@
 			)
 		)
 	)
-	(global_label "col0"
-		(shape output)
-		(at 222.25 256.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "61229c4a-aa6c-4486-9bdc-56eee7a113e2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.7755 256.4606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "UG_LV"
-		(shape output)
-		(at 222.25 317.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "61f66990-78ac-4e8d-8081-daa72e2b57f0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.92 317.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "row1"
-		(shape input)
-		(at 222.25 264.16 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "654bde3b-06f4-442e-b861-585577b71753")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.1383 264.0806 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "USB-D-"
 		(shape bidirectional)
 		(at 287.02 274.32 180)
@@ -13784,50 +13783,6 @@
 		(uuid "6752ec47-df2e-4c53-8df2-c149d9f5f2ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 276.3821 274.3994 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDA"
-		(shape bidirectional)
-		(at 222.25 269.24 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "787aa9a3-b95c-444f-80fd-ce66dfbba6f1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.2312 269.1606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SWDIO"
-		(shape bidirectional)
-		(at 176.53 260.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "79cb9bc6-882c-4eed-b951-2ab051d61e62")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.2507 260.4294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13927,28 +13882,6 @@
 	)
 	(global_label "row0"
 		(shape input)
-		(at 222.25 261.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "84f721ce-8699-4a32-b698-06a930028676")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.1383 261.5406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "row0"
-		(shape input)
 		(at 68.58 297.18 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14013,6 +13946,50 @@
 			)
 		)
 	)
+	(global_label "SCL"
+		(shape bidirectional)
+		(at 220.98 270.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8e3cc723-eeaf-4f03-9faf-b8b73658cf6a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.9007 270.4306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col1"
+		(shape output)
+		(at 223.012 257.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "927dc81a-615c-468a-8fcc-5e9ac3d1920f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.5375 257.7306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VDD"
 		(shape bidirectional)
 		(at 374.65 250.19 0)
@@ -14059,28 +14036,6 @@
 	)
 	(global_label "SCL"
 		(shape bidirectional)
-		(at 222.25 271.78 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "95d27436-052a-43d0-983d-e38c542956bf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.1707 271.7006 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCL"
-		(shape bidirectional)
 		(at 401.32 41.91 0)
 		(fields_autoplaced yes)
 		(effects
@@ -14101,9 +14056,9 @@
 			)
 		)
 	)
-	(global_label "USB-D+"
+	(global_label "SWDIO"
 		(shape bidirectional)
-		(at 176.53 273.05 180)
+		(at 175.26 259.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14111,9 +14066,31 @@
 			)
 			(justify right)
 		)
-		(uuid "99fcd9b0-8213-4ae3-893b-1a98cc007e9b")
+		(uuid "97cd8215-9fc7-4799-8514-ada4f4de827c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.8921 273.1294 0)
+			(at 166.9807 259.1594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RST"
+		(shape input)
+		(at 175.26 252.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9b70e039-a8bc-4a15-b38f-8bbeaf981509")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.3998 252.6506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14158,28 +14135,6 @@
 		(uuid "a04ccd57-732b-4a9a-b4df-4e0af3d96ae1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 245.5998 278.0506 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "UG_EN"
-		(shape output)
-		(at 176.53 307.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a5473b15-173f-4a2c-9a66-bceb2ceb28c0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.4972 307.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14299,9 +14254,9 @@
 			)
 		)
 	)
-	(global_label "USB-D-"
+	(global_label "USB-D+"
 		(shape bidirectional)
-		(at 176.53 275.59 180)
+		(at 175.26 271.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14309,9 +14264,9 @@
 			)
 			(justify right)
 		)
-		(uuid "b1348460-e87c-476f-93aa-3ae700014206")
+		(uuid "b0cf7ce7-8975-472d-90ad-4473c5ad0280")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.8921 275.6694 0)
+			(at 164.6221 271.8594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14497,6 +14452,28 @@
 			)
 		)
 	)
+	(global_label "UG_EN"
+		(shape output)
+		(at 175.26 306.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d0336899-ee82-44c6-8913-d5d38cf3cb06")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.2272 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RST"
 		(shape input)
 		(at 287.02 254 180)
@@ -14576,6 +14553,28 @@
 		(uuid "d485de86-41fa-4787-9e9c-a0a273ddfab4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 62.0545 292.0206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SWDCLK"
+		(shape input)
+		(at 175.26 256.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d78b2a16-8c30-4190-9267-9271d2395e02")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.3479 256.6194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14717,6 +14716,28 @@
 			)
 		)
 	)
+	(global_label "row0"
+		(shape input)
+		(at 223.012 260.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ee863082-c306-4edc-8a12-5c2004d06220")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.9003 260.2706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "UG_HV"
 		(shape output)
 		(at 389.89 153.67 0)
@@ -14779,28 +14800,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RST"
-		(shape input)
-		(at 176.53 254 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fc93fb5e-4fab-4dbb-b1a7-684d75925bce")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.6698 253.9206 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -14996,7 +14995,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "c9:C_0402_1005Metric_mod"
 			(at 22.86 252.73 0)
 			(effects
 				(font
@@ -15760,7 +15759,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "c9:R_0402_1005Metric_mod"
 			(at 146.05 139.7 0)
 			(effects
 				(font
@@ -16113,7 +16112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 3.81 294.64 0)
 			(effects
 				(font
@@ -16253,7 +16252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "c9:R_0402_1005Metric_mod"
 			(at 302.26 160.02 0)
 			(effects
 				(font
@@ -16399,7 +16398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-various:CON_TC2030_outlined"
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical"
 			(at 156.845 279.4 90)
 			(effects
 				(font
@@ -16408,7 +16407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 114.3 294.64 0)
 			(effects
 				(font
@@ -16481,7 +16480,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "c9:C_0402_1005Metric_mod"
 			(at 393.7 190.5 0)
 			(effects
 				(font
@@ -16631,7 +16630,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "c9:C_0402_1005Metric_mod"
 			(at 345.44 278.13 0)
 			(effects
 				(font
@@ -16852,7 +16851,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "c9:C_0402_1005Metric_mod"
 			(at 347.98 190.5 0)
 			(effects
 				(font
@@ -16907,73 +16906,6 @@
 			(project "designguide-schematic"
 				(path "/c2a65ddb-3915-4293-98a9-444287fe2a3d"
 					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 97.79 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "252fca72-e359-4a28-b0b0-35b3eaadd8c8")
-		(property "Reference" "#PWR03"
-			(at 97.79 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 100.33 26.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 97.79 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5850ce63-c79f-4001-b7a6-3ed005bf4399")
-		)
-		(instances
-			(project "designguide-schematic"
-				(path "/c2a65ddb-3915-4293-98a9-444287fe2a3d"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -17313,7 +17245,7 @@
 	)
 	(symbol
 		(lib_id "power:+VSW")
-		(at 200.66 248.92 0)
+		(at 199.39 247.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17321,7 +17253,7 @@
 		(dnp no)
 		(uuid "2f52e9aa-3fc4-4b2e-a8d1-2bcd627d6d8a")
 		(property "Reference" "#PWR040"
-			(at 200.66 252.73 0)
+			(at 199.39 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17330,7 +17262,7 @@
 			)
 		)
 		(property "Value" "+VSW"
-			(at 200.66 243.205 90)
+			(at 199.39 241.935 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17338,7 +17270,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 248.92 0)
+			(at 199.39 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17347,7 +17279,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 248.92 0)
+			(at 199.39 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17356,7 +17288,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 200.66 248.92 0)
+			(at 199.39 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17368,7 +17300,7 @@
 			(uuid "7c6c817c-da38-4ce4-be65-d8d2d489273b")
 		)
 		(instances
-			(project "designguide-schematic"
+			(project "c9"
 				(path "/c2a65ddb-3915-4293-98a9-444287fe2a3d"
 					(reference "#PWR040")
 					(unit 1)
@@ -17404,7 +17336,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "c9:C_0402_1005Metric_mod"
 			(at 368.3 252.73 0)
 			(effects
 				(font
@@ -17570,7 +17502,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "c9:R_0402_1005Metric_mod"
 			(at 140.97 139.7 0)
 			(effects
 				(font
@@ -18697,7 +18629,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "c9:R_0402_1005Metric_mod"
 			(at 191.77 132.08 0)
 			(effects
 				(font
@@ -18851,7 +18783,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "c9:R_0402_1005Metric_mod"
 			(at 396.24 34.29 0)
 			(effects
 				(font
@@ -19064,7 +18996,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "c9:C_0402_1005Metric_mod"
 			(at 138.43 114.3 0)
 			(effects
 				(font
@@ -19281,7 +19213,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "c9:C_0402_1005Metric_mod"
 			(at 48.26 252.73 0)
 			(effects
 				(font
@@ -19436,7 +19368,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "c9:R_0402_1005Metric_mod"
 			(at 227.33 113.03 0)
 			(effects
 				(font
@@ -19513,7 +19445,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP0.7x1.3mm"
+		(property "Footprint" "PCM_Package_DFN_QFN_AKL:DFN-8-1EP_2x2mm_P0.5mm_EP0.7x1.3mm"
 			(at 361.315 50.8 0)
 			(effects
 				(font
@@ -19807,7 +19739,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-various:SW_SPST_SKQG_WithStem"
+		(property "Footprint" "c9:JUMP_REST_10.16mm"
 			(at 149.225 304.8 0)
 			(effects
 				(font
@@ -19877,7 +19809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "c9:C_0402_1005Metric_mod"
 			(at 317.5 190.5 0)
 			(effects
 				(font
@@ -19965,7 +19897,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "c9:R_0402_1005Metric_mod"
 			(at 300.99 44.45 0)
 			(effects
 				(font
@@ -20043,7 +19975,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "c9:LED_0402_1005Metric_mod"
 			(at 191.77 120.65 90)
 			(effects
 				(font
@@ -20187,7 +20119,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "c9:C_0402_1005Metric_mod"
 			(at 386.08 252.73 0)
 			(effects
 				(font
@@ -20275,7 +20207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "c9:C_0402_1005Metric_mod"
 			(at 378.46 190.5 0)
 			(effects
 				(font
@@ -20536,7 +20468,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:nRF52840_moko_mk08")
-		(at 199.39 289.56 0)
+		(at 198.12 288.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20545,7 +20477,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d3bf6a6-de63-4b00-8981-ca16148b03e9")
 		(property "Reference" "U8"
-			(at 205.105 328.93 0)
+			(at 203.835 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20553,7 +20485,7 @@
 			)
 		)
 		(property "Value" "nRF52840_moko_mk08"
-			(at 212.725 250.19 0)
+			(at 211.455 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20561,7 +20493,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:nRF52840_moko_mk08"
-			(at 194.31 289.56 90)
+			(at 193.04 288.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20570,7 +20502,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mokoblue.com/wp-content/uploads/2021/07/MK08_Bluetooth_Module_Datasheet-V1.0-20112601.pdf"
-			(at 203.2 332.74 0)
+			(at 201.93 331.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20579,7 +20511,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 199.39 289.56 0)
+			(at 198.12 288.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20759,9 +20691,74 @@
 			(uuid "9e6a13ca-5976-407c-9838-093cc8e7b7b7")
 		)
 		(instances
-			(project "designguide-schematic"
+			(project "c9"
 				(path "/c2a65ddb-3915-4293-98a9-444287fe2a3d"
 					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 97.79 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ea1ffa4-a6d5-43ba-b551-6a40d37974b5")
+		(property "Reference" "#PWR03"
+			(at 97.79 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 98.171 23.5458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce6eb743-1914-4b5e-97a2-d05adfaa9b30")
+		)
+		(instances
+			(project "c9"
+				(path "/c2a65ddb-3915-4293-98a9-444287fe2a3d"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -20861,7 +20858,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "c9:C_0402_1005Metric_mod"
 			(at 363.22 190.5 0)
 			(effects
 				(font
@@ -20948,7 +20945,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "c9:C_0402_1005Metric_mod"
 			(at 199.39 127 0)
 			(effects
 				(font
@@ -21167,7 +21164,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "c9:R_0402_1005Metric_mod"
 			(at 30.48 176.53 0)
 			(effects
 				(font
@@ -21246,7 +21243,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "c9:R_0402_1005Metric_mod"
 			(at 227.33 107.95 0)
 			(effects
 				(font
@@ -21390,7 +21387,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "c9:LED_0402_1005Metric_mod"
 			(at 27.94 105.41 90)
 			(effects
 				(font
@@ -21752,7 +21749,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-various:Molex_Pico-EZmate_78171-0002_1x02-1MP_P1.20mm_Vertical"
+		(property "Footprint" "c9:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal_mod"
 			(at 232.41 128.27 0)
 			(effects
 				(font
@@ -21834,7 +21831,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "c9:R_0402_1005Metric_mod"
 			(at 367.03 146.05 0)
 			(effects
 				(font
@@ -21979,7 +21976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "c9:R_0402_1005Metric_mod"
 			(at 73.66 38.1 0)
 			(effects
 				(font
@@ -22123,7 +22120,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "c9:R_0402_1005Metric_mod"
 			(at 90.17 111.76 0)
 			(effects
 				(font
@@ -22283,7 +22280,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "c9:C_0402_1005Metric_mod"
 			(at 358.14 44.45 0)
 			(effects
 				(font
@@ -22438,7 +22435,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "c9:R_0402_1005Metric_mod"
 			(at 257.81 100.33 0)
 			(effects
 				(font
@@ -23010,7 +23007,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "c9:R_0402_1005Metric_mod"
 			(at 68.58 119.38 0)
 			(effects
 				(font
@@ -23098,7 +23095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 225.425 294.64 0)
 			(effects
 				(font
@@ -23435,7 +23432,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "c9:C_0402_1005Metric_mod"
 			(at 203.2 119.38 0)
 			(effects
 				(font
@@ -23785,7 +23782,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "c9:R_0402_1005Metric_mod"
 			(at 398.78 34.29 0)
 			(effects
 				(font
@@ -24086,7 +24083,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "c9:C_0402_1005Metric_mod"
 			(at 302.26 190.5 0)
 			(effects
 				(font
@@ -24174,7 +24171,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "c9:R_0402_1005Metric_mod"
 			(at 184.15 132.08 0)
 			(effects
 				(font
@@ -24811,7 +24808,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "c9:R_0402_1005Metric_mod"
 			(at 113.03 195.58 0)
 			(effects
 				(font
@@ -24965,7 +24962,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "c9:C_0402_1005Metric_mod"
 			(at 59.055 252.73 0)
 			(effects
 				(font
@@ -25052,7 +25049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "c9:C_0402_1005Metric_mod"
 			(at 41.91 105.41 0)
 			(effects
 				(font
@@ -25296,7 +25293,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "c9:R_0402_1005Metric_mod"
 			(at 316.23 147.32 0)
 			(effects
 				(font
@@ -25375,7 +25372,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "c9:R_0402_1005Metric_mod"
 			(at 300.99 39.37 0)
 			(effects
 				(font
@@ -25517,7 +25514,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "c9:R_0402_1005Metric_mod"
 			(at 87.63 179.07 0)
 			(effects
 				(font
@@ -25737,7 +25734,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "c9:C_0402_1005Metric_mod"
 			(at 53.34 71.12 0)
 			(effects
 				(font
@@ -26183,7 +26180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "c9:R_0402_1005Metric_mod"
 			(at 30.48 181.61 0)
 			(effects
 				(font
@@ -26437,7 +26434,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 195.58 330.2 0)
+		(at 194.31 328.93 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26447,7 +26444,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5f7c434-4e4c-40cf-96ac-ec46b347b984")
 		(property "Reference" "#PWR066"
-			(at 195.58 336.55 0)
+			(at 194.31 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26456,7 +26453,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 195.58 334.645 0)
+			(at 194.31 333.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26464,7 +26461,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 330.2 0)
+			(at 194.31 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26473,7 +26470,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 330.2 0)
+			(at 194.31 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26482,7 +26479,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 330.2 0)
+			(at 194.31 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26494,7 +26491,7 @@
 			(uuid "2d5b6dbd-a795-463f-a5b6-89f6ecfea4da")
 		)
 		(instances
-			(project "designguide-schematic"
+			(project "c9"
 				(path "/c2a65ddb-3915-4293-98a9-444287fe2a3d"
 					(reference "#PWR066")
 					(unit 1)
@@ -26527,7 +26524,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "c9:C_0402_1005Metric_mod"
 			(at 345.44 288.29 0)
 			(effects
 				(font
@@ -26756,7 +26753,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "c9:R_0402_1005Metric_mod"
 			(at 151.13 139.7 0)
 			(effects
 				(font
@@ -26898,7 +26895,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "c9:R_0402_1005Metric_mod"
 			(at 298.45 157.48 0)
 			(effects
 				(font
@@ -27016,7 +27013,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 176.53 270.51 90)
+		(at 175.26 269.24 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27024,7 +27021,7 @@
 		(dnp no)
 		(uuid "e990e97c-654e-4693-8af5-f7cd7f643328")
 		(property "Reference" "#PWR051"
-			(at 180.34 270.51 0)
+			(at 179.07 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27033,7 +27030,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 170.815 270.51 90)
+			(at 169.545 269.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27041,7 +27038,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 270.51 0)
+			(at 175.26 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27050,7 +27047,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 270.51 0)
+			(at 175.26 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27059,7 +27056,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.53 270.51 0)
+			(at 175.26 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27071,7 +27068,7 @@
 			(uuid "4ef34c54-c21a-4f6e-95f1-185a72db5218")
 		)
 		(instances
-			(project "designguide-schematic"
+			(project "c9"
 				(path "/c2a65ddb-3915-4293-98a9-444287fe2a3d"
 					(reference "#PWR051")
 					(unit 1)
@@ -27253,7 +27250,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "c9:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal_mod"
 			(at 92.71 30.48 0)
 			(effects
 				(font
@@ -27332,7 +27329,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "c9:R_0402_1005Metric_mod"
 			(at 27.94 110.49 0)
 			(effects
 				(font
@@ -27542,7 +27539,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "c9:C_0402_1005Metric_mod"
 			(at 397.51 252.73 0)
 			(effects
 				(font
@@ -27780,7 +27777,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "c9:C_0402_1005Metric_mod"
 			(at 95.25 181.61 0)
 			(effects
 				(font
@@ -27868,7 +27865,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "c9:C_0402_1005Metric_mod"
 			(at 332.74 190.5 0)
 			(effects
 				(font
@@ -27957,7 +27954,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "c9:R_0402_1005Metric_mod"
 			(at 71.12 38.1 0)
 			(effects
 				(font
@@ -28077,7 +28074,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 198.12 248.92 0)
+		(at 196.85 247.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28085,7 +28082,7 @@
 		(dnp no)
 		(uuid "fe56e1ce-82a2-40e2-8a80-5f2dd28590b8")
 		(property "Reference" "#PWR039"
-			(at 198.12 252.73 0)
+			(at 196.85 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28094,7 +28091,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 198.12 243.205 90)
+			(at 196.85 241.935 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28102,7 +28099,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 248.92 0)
+			(at 196.85 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28111,7 +28108,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 248.92 0)
+			(at 196.85 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28120,7 +28117,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 248.92 0)
+			(at 196.85 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28132,7 +28129,7 @@
 			(uuid "58a7432d-58b3-41d2-ae44-0f73900210e3")
 		)
 		(instances
-			(project "designguide-schematic"
+			(project "c9"
 				(path "/c2a65ddb-3915-4293-98a9-444287fe2a3d"
 					(reference "#PWR039")
 					(unit 1)

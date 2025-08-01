@@ -41990,7 +41990,7 @@
 		(layer "Edge.Cuts")
 		(uuid "f95b3d42-20cd-460f-a1f6-fef4b93b9461")
 	)
-	(gr_text "shoonie-desu/zensai_pcb/tree/master/chiffre/i8v2_tako"
+	(gr_text "shoonie-desu/zensai_pcb/tree/master/chiffre/c8v2_tako"
 		(at -54.253972 64.204185 353)
 		(layer "F.Mask")
 		(uuid "87536d02-2543-41b6-9cff-49b4fc589944")
@@ -42003,7 +42003,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "shoonie-desu/zensai_pcb/tree/master/chiffre/i8v2_tako"
+	(gr_text "shoonie-desu/zensai_pcb/tree/master/chiffre/c8v2_tako"
 		(at 181.110622 64.204262 7)
 		(layer "B.Mask")
 		(uuid "2fa513af-5364-4e78-a31d-8cf9249f3923")
@@ -43023,14 +43023,6 @@
 		(uuid "1df8c16d-9122-48ad-ac7e-1377d99232f3")
 	)
 	(segment
-		(start 45.813253 61.824182)
-		(end 45.775036 62.135479)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 3)
-		(uuid "2dcc9190-e08d-49e5-9c3b-3f3c36fc4192")
-	)
-	(segment
 		(start 38.481627 58.1849)
 		(end 41.790241 55.599929)
 		(width 0.3)
@@ -43187,15 +43179,6 @@
 		(uuid "6c8f7bdb-ab02-4166-b247-f4e7ce88fb82")
 	)
 	(arc
-		(start 46.334401 60.903073)
-		(mid 46.24992 61.159268)
-		(end 46.073827 61.363628)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 3)
-		(uuid "720d426e-35a5-4388-8aaf-6994d8743885")
-	)
-	(arc
 		(start 36.121478 69.754241)
 		(mid 36.452292 69.729656)
 		(end 36.748514 69.580348)
@@ -43266,15 +43249,6 @@
 		(layer "B.Cu")
 		(net 3)
 		(uuid "de3a23bb-471d-4ab5-9a6f-1037fba2cf19")
-	)
-	(arc
-		(start 46.073827 61.363628)
-		(mid 45.897736 61.567988)
-		(end 45.813253 61.824182)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 3)
-		(uuid "e28e44fe-5949-4fed-b0c0-8d10afdf9df4")
 	)
 	(arc
 		(start 46.935045 66.748726)

@@ -3,12 +3,12 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(property "Reference" "REF**"
-		(at 0 8.5 0)
+	(property "Reference" "PSW1"
+		(at -0.000001 8.500001 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "e6709887-68a5-4e04-a31f-4bdee1e03aa5")
+		(uuid "0447e31d-78cc-4b09-b1d0-0a0d86172211")
 		(effects
 			(font
 				(size 1 1)
@@ -16,11 +16,11 @@
 			)
 		)
 	)
-	(property "Value" "JUMP_REST_10.16mm"
+	(property "Value" "REST"
 		(at 0 10 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "99f18bcf-788f-4397-a711-263cc1b62661")
+		(uuid "1e6a06cf-1479-4310-88e4-b366e24a2dc0")
 		(effects
 			(font
 				(size 1 1)
@@ -28,12 +28,12 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
-		(at 0 9 0)
+	(property "Datasheet" "~"
+		(at 0 9.000001 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "716bcee8-2e5e-4978-b131-67662282feb5")
+		(uuid "d592718b-b308-4107-a0a4-614b78923302")
 		(effects
 			(font
 				(size 1 1)
@@ -41,12 +41,12 @@
 			)
 		)
 	)
-	(property "Description" ""
-		(at 0 9 0)
+	(property "Description" "Push button switch, generic, two pins"
+		(at 0 9.000001 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5313b079-5a9f-4583-ab99-beb960b1979d")
+		(uuid "7322ad5a-a374-4bc7-92a5-b3eb870af443")
 		(effects
 			(font
 				(size 1 1)
@@ -54,12 +54,12 @@
 			)
 		)
 	)
-	(attr smd)
+	(attr smd exclude_from_bom)
 	(fp_text user "${REFERENCE}"
-		(at 0 11.5 0)
+		(at 0.000002 11.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "6028f387-c8b0-4e01-860a-4e73d2149953")
+		(uuid "974d5302-5d76-4572-8f0a-3dc144f69a4a")
 		(effects
 			(font
 				(size 1 1)
@@ -68,9 +68,9 @@
 		)
 	)
 	(pad "1" smd custom
-		(at -5.08 0)
+		(at -5.080001 0.000002)
 		(size 1 1)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Mask")
 		(thermal_bridge_angle 45)
 		(options
 			(clearance outline)
@@ -125,8 +125,8 @@
 				(fill yes)
 			)
 			(gr_rect
-				(start 2.334107 -1.047016)
-				(end 2.534107 1.1)
+				(start 2.334107 1.1)
+				(end 2.534107 -1.047016)
 				(width 0)
 				(fill yes)
 			)
@@ -140,12 +140,12 @@
 				(fill yes)
 			)
 		)
-		(uuid "027c1c62-04f4-4fe0-a4f1-0fb51a0ad1be")
+		(uuid "96969a64-1ca2-4a67-b3c0-19c3a5de8b18")
 	)
 	(pad "1" smd custom
-		(at -5.08 0 180)
+		(at -5.080001 0.000002 180)
 		(size 1 1)
-		(layers "B.Cu" "B.Mask" "B.Paste")
+		(layers "B.Cu" "B.Mask")
 		(thermal_bridge_angle 45)
 		(options
 			(clearance outline)
@@ -218,20 +218,21 @@
 				(fill yes)
 			)
 		)
-		(uuid "8f6b25ef-98b3-4914-8892-6a40511385fd")
+		(uuid "5f71ab4e-fe65-4a88-934e-94aff9cd52d1")
 	)
 	(pad "1" thru_hole circle
-		(at -5.08 0)
+		(at -5.080001 0.000002)
 		(size 2.3 2.3)
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "c57422d3-4f8d-4eed-9278-092cc4042d76")
+		(zone_connect 2)
+		(uuid "5d356f3b-02aa-4e4a-9302-bff7a1a6aa3f")
 	)
 	(pad "2" smd custom
-		(at 5.08 0)
+		(at 5.080001 -0.000002)
 		(size 1 1)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Mask")
 		(thermal_bridge_angle 45)
 		(options
 			(clearance outline)
@@ -305,12 +306,12 @@
 				(fill yes)
 			)
 		)
-		(uuid "97cdf979-6d01-46c3-a89a-e2fb9a1859b8")
+		(uuid "23555b2f-8820-42cc-bc3f-f13f58afa3b3")
 	)
 	(pad "2" smd custom
-		(at 5.08 0 180)
+		(at 5.080001 -0.000002 180)
 		(size 1 1)
-		(layers "B.Cu" "B.Mask" "B.Paste")
+		(layers "B.Cu" "B.Mask")
 		(thermal_bridge_angle 45)
 		(options
 			(clearance outline)
@@ -378,15 +379,15 @@
 				(fill yes)
 			)
 		)
-		(uuid "3025bafa-2f9c-4665-aa73-11c2c2fca864")
+		(uuid "aeef0290-e2b1-4f94-92eb-d0ce4dba463a")
 	)
 	(pad "2" thru_hole circle
-		(at 5.08 0)
+		(at 5.080001 -0.000002)
 		(size 2.3 2.3)
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "f5c0400b-3e6b-463c-a5b8-63db1d089de2")
+		(uuid "305d74ad-7060-45bd-8d2f-27f6b6374ed5")
 	)
 	(embedded_fonts no)
 )

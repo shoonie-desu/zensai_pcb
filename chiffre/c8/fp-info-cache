@@ -1,4 +1,4 @@
-46532682843950489
+46536212233479727
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -186172,6 +186172,13 @@ Untitled
 2
 2
 c8
+alpsalpine_SRBV
+
+
+0
+12
+10
+c8
 mousebites_2mm
 
 
@@ -186185,3 +186192,10 @@ mountinghole M3
 0
 2
 0
+temp
+SRBV141404
+SRBV141404-1
+Switch
+0
+12
+12

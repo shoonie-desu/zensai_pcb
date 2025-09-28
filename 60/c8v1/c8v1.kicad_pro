@@ -525,15 +525,15 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
-      "idf": "",
+      "gencad": "../../../../../../Downloads/c8v1.cad",
+      "idf": "../../../../../../Downloads/c8v1.emn",
       "netlist": "",
       "plot": "C:/Users/shoonie/Downloads/",
       "pos_files": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "../../../../../../Downloads/c8v1.dsn",
       "step": "../../../../../../Downloads/i8.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "../../../../../../Downloads/c8v1.wrl"
     },
     "page_layout_descr_file": ""
   },

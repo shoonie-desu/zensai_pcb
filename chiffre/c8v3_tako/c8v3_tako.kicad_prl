@@ -116,15 +116,15 @@
   "project": {
     "files": [
       {
-        "name": "c8v3_tako.kicad_pcb",
-        "open": true,
+        "name": "c8v3_tako.kicad_pro",
+        "open": false,
         "window": {
           "display": 0,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 3456,
-          "size_y": 1416
+          "maximized": false,
+          "pos_x": 201,
+          "pos_y": 295,
+          "size_x": 1097,
+          "size_y": 637
         }
       }
     ]

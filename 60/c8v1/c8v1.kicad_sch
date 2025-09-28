@@ -3806,12 +3806,6 @@
 		(uuid "1f582f71-057a-4202-b9b3-659f1c3d997c")
 	)
 	(junction
-		(at 309.88 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "20b31181-8f08-47c2-b1c5-6c9eafa44a3e")
-	)
-	(junction
 		(at 91.44 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3912,6 +3906,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43ceecfd-2935-4868-9289-db7b12dbe305")
+	)
+	(junction
+		(at 330.2 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45878617-09ce-46aa-8a8e-931ef41b5e8e")
 	)
 	(junction
 		(at 40.64 81.28)
@@ -4166,12 +4166,6 @@
 		(uuid "840a5a2e-d959-4778-a69a-650941b6c68b")
 	)
 	(junction
-		(at 330.2 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85a0cb97-8113-4d77-ae82-4543aad5c15b")
-	)
-	(junction
 		(at 40.64 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4278,6 +4272,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a15873c9-32d4-4df6-be0b-52077457c5e0")
+	)
+	(junction
+		(at 309.88 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a26f78d9-5b0c-44cb-8bc6-5a7e7f8aed1e")
 	)
 	(junction
 		(at 45.72 106.68)
@@ -4646,6 +4646,12 @@
 		(uuid "e80914e7-31f8-4dda-8d62-a66299c44d7b")
 	)
 	(junction
+		(at 330.2 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea015c50-5f07-48f8-84ee-ed5a3276f06a")
+	)
+	(junction
 		(at 121.92 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4722,12 +4728,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2ed811f-d9d4-4363-bb21-a597a913d3fe")
-	)
-	(junction
-		(at 330.2 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4407fbc-9ee5-41b8-a5df-af81ad6784f5")
 	)
 	(junction
 		(at 167.64 127)
@@ -4840,6 +4840,16 @@
 			(type default)
 		)
 		(uuid "0f0654f9-0130-41b7-859e-8e19cb0cf1ba")
+	)
+	(wire
+		(pts
+			(xy 304.8 81.28) (xy 304.8 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10124dc6-55a9-48f8-ad29-6eefdd10f54a")
 	)
 	(wire
 		(pts
@@ -5850,16 +5860,6 @@
 			(type default)
 		)
 		(uuid "82b2b682-0330-478e-8b14-226cac2ddfc6")
-	)
-	(wire
-		(pts
-			(xy 304.8 81.28) (xy 304.8 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8302e940-fb08-45d3-a5e8-0f74d4c29f44")
 	)
 	(wire
 		(pts
@@ -17692,7 +17692,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
-		(at 327.66 104.14 0)
+		(at 327.66 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17709,7 +17709,7 @@
 			)
 		)
 		(property "Value" "CPG151101S11"
-			(at 327.66 108.2732 0)
+			(at 327.66 100.0068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18785,7 +18785,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
-		(at 332.74 43.18 0)
+		(at 332.74 43.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18802,7 +18802,7 @@
 			)
 		)
 		(property "Value" "CPG151101S11"
-			(at 332.74 47.3132 0)
+			(at 332.74 39.0468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19405,7 +19405,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
-		(at 327.66 43.18 0)
+		(at 327.66 43.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19422,7 +19422,7 @@
 			)
 		)
 		(property "Value" "CPG151101S11"
-			(at 327.66 47.3132 0)
+			(at 327.66 39.0468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20328,7 +20328,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
-		(at 68.58 104.14 0)
+		(at 68.58 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20345,7 +20345,7 @@
 			)
 		)
 		(property "Value" "CPG151101S11"
-			(at 68.58 108.2732 0)
+			(at 68.58 100.0068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22054,7 +22054,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
-		(at 312.42 83.82 0)
+		(at 312.42 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22071,7 +22071,7 @@
 			)
 		)
 		(property "Value" "CPG151101S11"
-			(at 312.42 87.9532 0)
+			(at 312.42 79.6868 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24886,7 +24886,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
-		(at 307.34 83.82 0)
+		(at 307.34 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24903,7 +24903,7 @@
 			)
 		)
 		(property "Value" "CPG151101S11"
-			(at 307.34 87.9532 0)
+			(at 307.34 79.6868 0)
 			(effects
 				(font
 					(size 1.27 1.27)

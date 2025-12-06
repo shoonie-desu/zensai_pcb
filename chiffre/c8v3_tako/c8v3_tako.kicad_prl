@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 5,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -13,7 +13,7 @@
       "shapes": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.4000000059604645
+      "zones": 0.3400000035762787
     },
     "selection_filter": {
       "dimensions": true,
@@ -114,20 +114,7 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": [
-      {
-        "name": "c8v3_tako.kicad_pro",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": false,
-          "pos_x": 201,
-          "pos_y": 295,
-          "size_x": 1097,
-          "size_y": 637
-        }
-      }
-    ]
+    "files": []
   },
   "schematic": {
     "selection_filter": {

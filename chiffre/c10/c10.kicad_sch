@@ -6352,6 +6352,20 @@
 		(at 252.73 87.63)
 		(uuid "7c23c693-8058-4b28-9e6e-8f74ae079b12")
 	)
+	(no_connect
+		(at 203.2 130.81)
+		(uuid "c08d945f-7ebe-45e4-8dae-68508b347801")
+	)
+	(wire
+		(pts
+			(xy 100.33 176.53) (xy 127 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02a0d716-2ca7-475a-893d-6bbfd88e5740")
+	)
 	(wire
 		(pts
 			(xy 26.67 53.34) (xy 41.91 53.34)
@@ -6361,6 +6375,16 @@
 			(type default)
 		)
 		(uuid "02a42884-471c-4bf0-8dde-37dff716a75b")
+	)
+	(wire
+		(pts
+			(xy 203.2 153.67) (xy 203.2 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05bbe88b-0d68-43b1-8d38-77e82f3fe0e1")
 	)
 	(wire
 		(pts
@@ -6464,6 +6488,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 130.81) (xy 127 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ba6b93e-1f47-477f-b702-74a00398f15e")
+	)
+	(wire
+		(pts
 			(xy 72.39 83.82) (xy 87.63 83.82)
 		)
 		(stroke
@@ -6521,6 +6555,16 @@
 			(type default)
 		)
 		(uuid "2926835a-694b-468c-81fd-4d3199ad045a")
+	)
+	(wire
+		(pts
+			(xy 24.13 130.81) (xy 24.13 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b3216c1-bfa7-43e1-a4c8-17845341c607")
 	)
 	(wire
 		(pts
@@ -6924,6 +6968,26 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 199.39) (xy 24.13 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "853739aa-678b-4d32-903b-29331cf656bf")
+	)
+	(wire
+		(pts
+			(xy 100.33 199.39) (xy 127 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aa9642c-7a14-49fa-a860-f33c13f81d8b")
+	)
+	(wire
+		(pts
 			(xy 87.63 83.82) (xy 102.87 83.82)
 		)
 		(stroke
@@ -7314,6 +7378,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 199.39) (xy 24.13 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdb11389-458f-4466-8c2c-60b10244be2b")
+	)
+	(wire
+		(pts
 			(xy 118.11 99.06) (xy 148.59 99.06)
 		)
 		(stroke
@@ -7381,6 +7455,16 @@
 			(type default)
 		)
 		(uuid "e50df5c3-3fe0-4a07-824d-732257d8c57d")
+	)
+	(wire
+		(pts
+			(xy 100.33 153.67) (xy 127 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5d747f1-575c-406a-975d-bc5094f96580")
 	)
 	(wire
 		(pts
@@ -8599,6 +8683,7 @@
 	(symbol
 		(lib_id "LED:SK6812")
 		(at 165.1 153.67 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8606,7 +8691,7 @@
 		(dnp no)
 		(uuid "038ab5cd-0ee9-4cb2-80c8-bbf9012e57b9")
 		(property "Reference" "LED25"
-			(at 162.052 147.32 0)
+			(at 168.148 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8614,7 +8699,7 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 175.26 149.7898 0)
+			(at 154.94 149.7898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8623,7 +8708,7 @@
 			)
 		)
 		(property "Footprint" "c8:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm edit"
-			(at 166.37 161.29 0)
+			(at 163.83 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8633,7 +8718,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 167.64 163.195 0)
+			(at 162.56 163.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9798,6 +9883,7 @@
 	(symbol
 		(lib_id "LED:SK6812")
 		(at 195.58 153.67 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9805,7 +9891,7 @@
 		(dnp no)
 		(uuid "119862f6-036b-42a2-b4eb-c6bca31687e6")
 		(property "Reference" "LED29"
-			(at 192.532 147.32 0)
+			(at 198.628 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9813,7 +9899,7 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 205.74 149.7898 0)
+			(at 185.42 149.7898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9822,7 +9908,7 @@
 			)
 		)
 		(property "Footprint" "c8:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm edit"
-			(at 196.85 161.29 0)
+			(at 194.31 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9832,7 +9918,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 198.12 163.195 0)
+			(at 193.04 163.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10598,7 +10684,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "proj:R_0402_1005Metric"
 			(at 353.06 105.41 0)
 			(effects
 				(font
@@ -10719,6 +10805,7 @@
 	(symbol
 		(lib_id "LED:SK6812")
 		(at 149.86 153.67 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10726,7 +10813,7 @@
 		(dnp no)
 		(uuid "200067f6-0873-4aa0-9d9b-87c2da41633f")
 		(property "Reference" "LED27"
-			(at 146.812 147.32 0)
+			(at 152.908 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10734,7 +10821,7 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 160.02 149.7898 0)
+			(at 139.7 149.7898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10743,7 +10830,7 @@
 			)
 		)
 		(property "Footprint" "c8:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm edit"
-			(at 151.13 161.29 0)
+			(at 148.59 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10753,7 +10840,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 152.4 163.195 0)
+			(at 147.32 163.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12335,7 +12422,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "proj:C_0402_1005Metric"
 			(at 317.5 53.34 0)
 			(effects
 				(font
@@ -12776,7 +12863,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "proj:C_0402_1005Metric"
 			(at 317.5 63.5 0)
 			(effects
 				(font
@@ -13174,7 +13261,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "proj:R_0402_1005Metric"
 			(at 383.54 54.61 0)
 			(effects
 				(font
@@ -13528,7 +13615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 226.695 99.06 0)
 			(effects
 				(font
@@ -16644,7 +16731,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+		(property "Footprint" "proj:standoff"
 			(at 113.03 74.93 0)
 			(effects
 				(font
@@ -16686,6 +16773,7 @@
 	(symbol
 		(lib_id "LED:SK6812")
 		(at 180.34 153.67 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16693,7 +16781,7 @@
 		(dnp no)
 		(uuid "81bc0ed8-cd15-4db5-8ee6-1cd42a60ec2a")
 		(property "Reference" "LED28"
-			(at 177.292 147.32 0)
+			(at 183.388 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16701,7 +16789,7 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 190.5 149.7898 0)
+			(at 170.18 149.7898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16710,7 +16798,7 @@
 			)
 		)
 		(property "Footprint" "c8:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm edit"
-			(at 181.61 161.29 0)
+			(at 179.07 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16720,7 +16808,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 182.88 163.195 0)
+			(at 177.8 163.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16787,7 +16875,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "proj:R_0402_1005Metric"
 			(at 347.98 128.27 0)
 			(effects
 				(font
@@ -17459,7 +17547,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "proj:C_0402_1005Metric"
 			(at 345.44 64.77 0)
 			(effects
 				(font
@@ -19214,7 +19302,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "proj:R_0402_1005Metric"
 			(at 386.08 54.61 0)
 			(effects
 				(font
@@ -20910,7 +20998,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "proj:R_0402_1005Metric"
 			(at 367.03 92.71 0)
 			(effects
 				(font
@@ -22440,7 +22528,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "proj:R_0402_1005Metric"
 			(at 349.25 102.87 0)
 			(effects
 				(font
@@ -23154,6 +23242,7 @@
 	(symbol
 		(lib_id "LED:SK6812")
 		(at 134.62 153.67 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23161,7 +23250,7 @@
 		(dnp no)
 		(uuid "eac4ff07-95c8-4725-981a-a6c8158a0d3b")
 		(property "Reference" "LED26"
-			(at 131.572 147.32 0)
+			(at 137.668 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23169,7 +23258,7 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 144.78 149.7898 0)
+			(at 124.46 149.7898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23178,7 +23267,7 @@
 			)
 		)
 		(property "Footprint" "c8:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm edit"
-			(at 135.89 161.29 0)
+			(at 133.35 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23188,7 +23277,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 137.16 163.195 0)
+			(at 132.08 163.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
